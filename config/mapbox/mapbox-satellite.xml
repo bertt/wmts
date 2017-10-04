@@ -18,7 +18,7 @@
             <ows:Abstract></ows:Abstract>
             <ows:Identifier>mapbox-satellite</ows:Identifier>
             <Style isDefault="true">
-                <ows:Identifier>mapbox-datellite</ows:Identifier>
+                <ows:Identifier>mapbox-satellite</ows:Identifier>
             </Style>
             <Format>image/png</Format>
             <TileMatrixSetLink>
@@ -34,7 +34,7 @@
         <TileMatrixSet>
             <ows:Identifier>google3857</ows:Identifier>
             <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.18.3:3857">
-                <ows:LowerCorner>977650 5838030</ows:LowerCorners>
+                <ows:LowerCorner>977650 5838030</ows:LowerCorner>
                 <ows:UpperCorner>1913530 6281290</ows:UpperCorner>
             </ows:BoundingBox>
             <ows:SupportedCRS>urn:ogc:def:crs:EPSG:6.18.3:3857</ows:SupportedCRS>
