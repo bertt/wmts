@@ -1,4 +1,4 @@
-# bwertt/wmts
+# bertt/wmts
 
 Collection of WMTS services
 
