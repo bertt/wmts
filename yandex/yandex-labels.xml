@@ -14,9 +14,9 @@
     </ows:ServiceIdentification>
     <Contents>
         <Layer>
-            <ows:Title>Yandex - hybrid</ows:Title>
+            <ows:Title>Yandex - labels</ows:Title>
             <ows:Abstract></ows:Abstract>
-            <ows:Identifier>yandex_hybrid</ows:Identifier>
+            <ows:Identifier>yandex_labels</ows:Identifier>
             <Style isDefault="true">
                 <ows:Identifier>yandex</ows:Identifier>
             </Style>
