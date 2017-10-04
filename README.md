@@ -1,4 +1,4 @@
-# arcbrutile-pro
+# bwertt/wmts
 
-ArcBruTile Pro Edition - For ArcGIS Pro 2.0
+Collection of WMTS services
 
