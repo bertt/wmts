@@ -34,7 +34,7 @@
                          template="https://c.api.tomtom.com/map/1/tile/basic/night/{TileMatrix}/{TileCol}/{TileRow}.png?key=x7es9779w29jcm3yhqgvwunf"
                          resourceType="tile"/>
             <ResourceURL format="image/png"
-                         template="https://d.api.tomtom.com/map/1/tile/basic/main/{TileMatrix}/{TileCol}/{TileRow}.png?key=x7es9779w29jcm3yhqgvwunf"
+                         template="https://d.api.tomtom.com/map/1/tile/basic/night/{TileMatrix}/{TileCol}/{TileRow}.png?key=x7es9779w29jcm3yhqgvwunf"
                          resourceType="tile"/>
         </Layer>
         <TileMatrixSet>
