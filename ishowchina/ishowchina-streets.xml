@@ -15,6 +15,10 @@
     <Contents>
         <Layer>
             <ows:Title>IsHowChina - Streets</ows:Title>
+            <ows:WGS84BoundingBox>
+            <ows:LowerCorner>72 20</ows:LowerCorner>
+            <ows:UpperCorner>137 56</ows:UpperCorner>
+            </ows:WGS84BoundingBox>
             <ows:Abstract></ows:Abstract>
             <ows:Identifier>ishowchina_streets</ows:Identifier>
             <Style isDefault="true">
