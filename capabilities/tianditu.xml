@@ -6,8 +6,8 @@
     xmlns:gml="http://www.opengis.net/gml"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
     <ows:ServiceIdentification>
-        <ows:Title>在线地图服务</ows:Title>
-        <ows:Abstract>基于OGC标准的地图服务</ows:Abstract>
+        <ows:Title>åœ¨çº¿åœ°å›¾æœåŠ¡</ows:Title>
+        <ows:Abstract>åŸºäºŽOGCæ ‡å‡†çš„åœ°å›¾æœåŠ¡</ows:Abstract>
         <ows:Keywords>
             <ows:Keyword>OGC</ows:Keyword>
         </ows:Keywords>
@@ -17,7 +17,7 @@
         <ows:AccessConstraints>none</ows:AccessConstraints>
     </ows:ServiceIdentification>
     <ows:ServiceProvider>
-        <ows:ProviderName>国家基础地理信息中心</ows:ProviderName>
+        <ows:ProviderName>å›½å®¶åŸºç¡€åœ°ç†ä¿¡æ¯ä¸­å¿ƒ</ows:ProviderName>
         <ows:ProviderSite>http://www.tianditu.com</ows:ProviderSite>
         <ows:ServiceContact>
             <ows:IndividualName>Mr Liu</ows:IndividualName>
@@ -28,10 +28,10 @@
                     <ows:Facsimile>010-88187700</ows:Facsimile>
                 </ows:Phone>
                 <ows:Address>
-                    <ows:DeliveryPoint>北京市海淀区莲花池西路28号</ows:DeliveryPoint>
-                    <ows:City>北京市</ows:City>
-                    <ows:AdministrativeArea>北京市</ows:AdministrativeArea>
-                    <ows:Country>中国</ows:Country>
+                    <ows:DeliveryPoint>åŒ—äº¬å¸‚æµ·æ·€åŒºèŽ²èŠ±æ± è¥¿è·¯28å·</ows:DeliveryPoint>
+                    <ows:City>åŒ—äº¬å¸‚</ows:City>
+                    <ows:AdministrativeArea>åŒ—äº¬å¸‚</ows:AdministrativeArea>
+                    <ows:Country>ä¸­å›½</ows:Country>
                     <ows:PostalCode>101399</ows:PostalCode>
                     <ows:ElectronicMailAddress>tianditu.com</ows:ElectronicMailAddress>
                 </ows:Address>
@@ -43,7 +43,7 @@
         <ows:Operation name="GetCapabilities">
             <ows:DCP>
                 <ows:HTTP>
-                    <ows:Get xlink:href="http://t0.tianditu.com/img_c/wmts?">
+                    <ows:Get xlink:href="http://t0.tianditu.com/vec_c/wmts?">
                         <ows:Constraint name="GetEncoding">
                             <ows:AllowedValues>
                                 <ows:Value>KVP</ows:Value>
@@ -56,7 +56,7 @@
         <ows:Operation name="GetTile">
             <ows:DCP>
                 <ows:HTTP>
-                    <ows:Get xlink:href="http://t0.tianditu.com/img_c/wmts?">
+                    <ows:Get xlink:href="http://t0.tianditu.com/vec_c/wmts?">
                         <ows:Constraint name="GetEncoding">
                             <ows:AllowedValues>
                                 <ows:Value>KVP</ows:Value>
@@ -69,9 +69,9 @@
     </ows:OperationsMetadata>
     <Contents>
         <Layer>
-            <ows:Title>img</ows:Title>
-            <ows:Abstract>img</ows:Abstract>
-            <ows:Identifier>img</ows:Identifier>
+            <ows:Title>Tianditu -streets</ows:Title>
+            <ows:Abstract>Tianditu -streets</ows:Abstract>
+            <ows:Identifier>vec</ows:Identifier>
             <ows:WGS84BoundingBox>
                 <ows:LowerCorner>-180.0 -90.0</ows:LowerCorner>
                 <ows:UpperCorner>180.0 90.0</ows:UpperCorner>
@@ -84,7 +84,7 @@
                 <ows:Identifier>default</ows:Identifier>
             </Style>
             <Format>tiles</Format>
-			<TileMatrixSetLink>
+            <TileMatrixSetLink>
                 <TileMatrixSet>c</TileMatrixSet>
             </TileMatrixSetLink>
         </Layer>
@@ -243,7 +243,7 @@
                 <TileHeight>256</TileHeight>
                 <MatrixWidth>131072</MatrixWidth>
                 <MatrixHeight>65536</MatrixHeight>
-				    </TileMatrix>
+			</TileMatrix>
             <TileMatrix>
                 <ows:Identifier>18</ows:Identifier>
                 <ScaleDenominator>2256.998866688275</ScaleDenominator>
@@ -252,6 +252,15 @@
                 <TileHeight>256</TileHeight>
                 <MatrixWidth>262144</MatrixWidth>
                 <MatrixHeight>131072</MatrixHeight>
+            </TileMatrix>
+			<TileMatrix>
+                <ows:Identifier>19</ows:Identifier>
+                <ScaleDenominator>1128.4994333441375</ScaleDenominator>
+                <TopLeftCorner>90.0 -180.0</TopLeftCorner>
+                <TileWidth>256</TileWidth>
+                <TileHeight>256</TileHeight>
+                <MatrixWidth>524288</MatrixWidth>
+                <MatrixHeight>262144</MatrixHeight>
             </TileMatrix>
         </TileMatrixSet>
     </Contents>

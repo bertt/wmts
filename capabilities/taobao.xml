@@ -4,7 +4,7 @@
               xsi:schemaLocation="http://www.opengis.net/wmts/1.0 http://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd"
               version="1.0.0">
     <ows:ServiceIdentification>
-        <ows:Title></ows:Title>
+        <ows:Title>Taobao</ows:Title>
         <ows:Abstract>
         </ows:Abstract>
         <ows:ServiceType>OGC WMTS</ows:ServiceType>
@@ -14,18 +14,33 @@
     </ows:ServiceIdentification>
     <Contents>
         <Layer>
-            <ows:Title>Nokia - Transit</ows:Title>
+            <ows:Title>Taobao - streets</ows:Title>
             <ows:Abstract></ows:Abstract>
-            <ows:Identifier>nokia_transit</ows:Identifier>
+            <ows:Identifier>taobao-streets</ows:Identifier>
             <Style isDefault="true">
-                <ows:Identifier>nokia</ows:Identifier>
+                <ows:Identifier>taobo-streets</ows:Identifier>
             </Style>
             <Format>image/png</Format>
             <TileMatrixSetLink>
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="http://1.aerial.maps.api.here.com/maptile/2.1/newest/hybrid.day.transit/{TileMatrix}/{TileCol}/{TileRow}/256/png?app_id=xWVIueSv6JL0aJ5xqTxb&amp;app_code=djPZyynKsbTjIUDOBcHZ2g"
+                         template="http://wprd02.is.autonavi.com/appmaptile?style=7&amp;x={TileCol}&amp;y={TileRow}&amp;z={TileMatrix}"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>Taobao - satellite</ows:Title>
+            <ows:Abstract></ows:Abstract>
+            <ows:Identifier>taobao-satellite</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>taobo-satellite</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="http://webst03.is.autonavi.com/appmaptile?x={TileCol}&amp;y={TileRow}&amp;z={TileMatrix}&amp;style=6"
                          resourceType="tile"/>
         </Layer>
         <TileMatrixSet>

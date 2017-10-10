@@ -4,7 +4,7 @@
               xsi:schemaLocation="http://www.opengis.net/wmts/1.0 http://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd"
               version="1.0.0">
     <ows:ServiceIdentification>
-        <ows:Title>Carto</ows:Title>
+        <ows:Title>Google</ows:Title>
         <ows:Abstract>
         </ows:Abstract>
         <ows:ServiceType>OGC WMTS</ows:ServiceType>
@@ -14,29 +14,36 @@
     </ows:ServiceIdentification>
     <Contents>
         <Layer>
-            <ows:Title>Carto - light</ows:Title>
+            <ows:Title>Google - Satellite</ows:Title>
             <ows:Abstract></ows:Abstract>
-            <ows:Identifier>carto-light</ows:Identifier>
+            <ows:Identifier>google-satellite</ows:Identifier>
             <Style isDefault="true">
-                <ows:Identifier>carto-light</ows:Identifier>
+                <ows:Identifier>google-satellite</ows:Identifier>
             </Style>
             <Format>image/png</Format>
             <TileMatrixSetLink>
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://a.basemaps.cartocdn.com/light_all/{TileMatrix}/{TileCol}/{TileRow}.png"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="https://b.basemaps.cartocdn.com/light_all/{TileMatrix}/{TileCol}/{TileRow}.png"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="https://c.basemaps.cartocdn.com/light_all/{TileMatrix}/{TileCol}/{TileRow}.png"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="https://d.basemaps.cartocdn.com/light_all/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         template="https://mts1.google.com/vt/lyrs=s@4&amp;x={TileCol}&amp;y={TileRow}&amp;z={TileMatrix}"
                          resourceType="tile"/>
         </Layer>
+        <Layer>
+            <ows:Title>Google - Streets</ows:Title>
+            <ows:Abstract></ows:Abstract>
+            <ows:Identifier>google-streets</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>google-streets</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://mts1.google.com/vt/lyrs=m@4&amp;x={TileCol}&amp;y={TileRow}&amp;z={TileMatrix}"
+                         resourceType="tile"/>
+        </Layer>
+        
         <TileMatrixSet>
             <ows:Identifier>google3857</ows:Identifier>
             <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.18.3:3857">

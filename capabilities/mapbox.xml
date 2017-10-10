@@ -4,7 +4,7 @@
               xsi:schemaLocation="http://www.opengis.net/wmts/1.0 http://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd"
               version="1.0.0">
     <ows:ServiceIdentification>
-        <ows:Title>Stamen</ows:Title>
+        <ows:Title>MapBox</ows:Title>
         <ows:Abstract>
         </ows:Abstract>
         <ows:ServiceType>OGC WMTS</ows:ServiceType>
@@ -14,18 +14,183 @@
     </ows:ServiceIdentification>
     <Contents>
         <Layer>
-            <ows:Title>Stamen - Toner</ows:Title>
+            <ows:Title>MapBox - comic</ows:Title>
             <ows:Abstract></ows:Abstract>
-            <ows:Identifier>stamen_toner</ows:Identifier>
+            <ows:Identifier>mapbox-comic</ows:Identifier>
             <Style isDefault="true">
-                <ows:Identifier>stamen</ows:Identifier>
+                <ows:Identifier>mapbox-comic</ows:Identifier>
             </Style>
             <Format>image/png</Format>
             <TileMatrixSetLink>
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
-            <ResourceURL format="image/jpg"
-                         template="http://a.tile.stamen.com/toner/{TileMatrix}/{TileCol}/{TileRow}.png"
+            <ResourceURL format="image/png"
+                         template="https://a.tiles.mapbox.com/v4/mapbox.comic/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1IjoiYmVydHQiLCJhIjoiaWFvN1Z4USJ9.k04Q6CVms4Gx7KDZxvAx2A"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>MapBox - wheatpaste</ows:Title>
+            <ows:Abstract></ows:Abstract>
+            <ows:Identifier>mapbox-wheatpaste</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>mapbox-wheatpaste</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://a.tiles.mapbox.com/v4/mapbox.wheatpaste/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1IjoiYmVydHQiLCJhIjoiaWFvN1Z4USJ9.k04Q6CVms4Gx7KDZxvAx2A"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>MapBox - streets</ows:Title>
+            <ows:Abstract></ows:Abstract>
+            <ows:Identifier>mapbox-streets</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>mapbox-streets</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://a.tiles.mapbox.com/v4/mapbox.streets/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1IjoiYmVydHQiLCJhIjoiaWFvN1Z4USJ9.k04Q6CVms4Gx7KDZxvAx2A"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>MapBox - satellite</ows:Title>
+            <ows:Abstract></ows:Abstract>
+            <ows:Identifier>mapbox-satellite</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>mapbox-satellite</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://a.tiles.mapbox.com/v3/brightrain.map-bpwe9yas/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>MapBox - run-bike-hike</ows:Title>
+            <ows:Abstract></ows:Abstract>
+            <ows:Identifier>mapbox-run-bike-hike</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>mapbox-run-bike-hike</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://a.tiles.mapbox.com/v4/mapbox.run-bike-hike/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1IjoiYmVydHQiLCJhIjoiaWFvN1Z4USJ9.k04Q6CVms4Gx7KDZxvAx2A"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>MapBox - pirates</ows:Title>
+            <ows:Abstract></ows:Abstract>
+            <ows:Identifier>mapbox-pirates</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>mapbox-pirates</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://a.tiles.mapbox.com/v4/mapbox.pirates/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1IjoiYmVydHQiLCJhIjoiaWFvN1Z4USJ9.k04Q6CVms4Gx7KDZxvAx2A"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>MapBox - pencil</ows:Title>
+            <ows:Abstract></ows:Abstract>
+            <ows:Identifier>mapbox-pencil</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>mapbox-pencil</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://a.tiles.mapbox.com/v4/mapbox.pencil/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1IjoiYmVydHQiLCJhIjoiaWFvN1Z4USJ9.k04Q6CVms4Gx7KDZxvAx2A"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>MapBox - outdoors</ows:Title>
+            <ows:Abstract></ows:Abstract>
+            <ows:Identifier>mapbox-outdoors</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>mapbox-outdoors</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://a.tiles.mapbox.com/v4/mapbox.outdoors/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1IjoiYmVydHQiLCJhIjoiaWFvN1Z4USJ9.k04Q6CVms4Gx7KDZxvAx2A"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>MapBox - light</ows:Title>
+            <ows:Abstract></ows:Abstract>
+            <ows:Identifier>mapbox-light</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>mapbox-light</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://a.tiles.mapbox.com/v4/mapbox.light/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1IjoiYmVydHQiLCJhIjoiaWFvN1Z4USJ9.k04Q6CVms4Gx7KDZxvAx2A"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>MapBox - high-contrast</ows:Title>
+            <ows:Abstract></ows:Abstract>
+            <ows:Identifier>mapbox-high-contrast</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>mapbox-high-contrast</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://a.tiles.mapbox.com/v4/mapbox.high-contrast/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1IjoiYmVydHQiLCJhIjoiaWFvN1Z4USJ9.k04Q6CVms4Gx7KDZxvAx2A"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>MapBox - emerald</ows:Title>
+            <ows:Abstract></ows:Abstract>
+            <ows:Identifier>mapbox-emerald</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>mapbox-emerald</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://a.tiles.mapbox.com/v4/mapbox.emerald/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1IjoiYmVydHQiLCJhIjoiaWFvN1Z4USJ9.k04Q6CVms4Gx7KDZxvAx2A"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>MapBox - dark</ows:Title>
+            <ows:Abstract></ows:Abstract>
+            <ows:Identifier>mapbox-dark</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>mapbox-dark</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://a.tiles.mapbox.com/v4/mapbox.dark/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1IjoiYmVydHQiLCJhIjoiaWFvN1Z4USJ9.k04Q6CVms4Gx7KDZxvAx2A"
                          resourceType="tile"/>
         </Layer>
         <TileMatrixSet>

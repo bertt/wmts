@@ -4,7 +4,7 @@
               xsi:schemaLocation="http://www.opengis.net/wmts/1.0 http://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd"
               version="1.0.0">
     <ows:ServiceIdentification>
-        <ows:Title>Taobao</ows:Title>
+        <ows:Title>Stamen</ows:Title>
         <ows:Abstract>
         </ows:Abstract>
         <ows:ServiceType>OGC WMTS</ows:ServiceType>
@@ -14,26 +14,41 @@
     </ows:ServiceIdentification>
     <Contents>
         <Layer>
-            <ows:Title>Taobao - satellite</ows:Title>
+            <ows:Title>Vworld - streets</ows:Title>
             <ows:Abstract></ows:Abstract>
-            <ows:Identifier>taobao-satellite</ows:Identifier>
+            <ows:Identifier>vworld-streets</ows:Identifier>
             <Style isDefault="true">
-                <ows:Identifier>taobo-satellite</ows:Identifier>
+                <ows:Identifier>vworld</ows:Identifier>
             </Style>
             <Format>image/png</Format>
             <TileMatrixSetLink>
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="http://webst03.is.autonavi.com/appmaptile?x={TileCol}&amp;y={TileRow}&amp;z={TileMatrix}&amp;style=6"
+                         template="http://xdworld.vworld.kr:8080/2d/Base/201612/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>Vworld - hybrid</ows:Title>
+            <ows:Abstract></ows:Abstract>
+            <ows:Identifier>vworld-hybrid</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>vworld</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="http://xdworld.vworld.kr:8080/2d/Hybrid/201612/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
         </Layer>
         <TileMatrixSet>
             <ows:Identifier>google3857</ows:Identifier>
-            <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.18.3:3857">
-                <ows:LowerCorner>977650 5838030</ows:LowerCorner>
-                <ows:UpperCorner>1913530 6281290</ows:UpperCorner>
-            </ows:BoundingBox>
+            <ows:WGS84BoundingBox>
+                <ows:LowerCorner>114 28</ows:LowerCorner>
+                <ows:UpperCorner>144 46</ows:UpperCorner>
+            </ows:WGS84BoundingBox>
             <ows:SupportedCRS>urn:ogc:def:crs:EPSG:6.18.3:3857</ows:SupportedCRS>
             <WellKnownScaleSet>urn:ogc:def:wkss:OGC:1.0:GoogleMapsCompatible</WellKnownScaleSet>
             <TileMatrix>

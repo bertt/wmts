@@ -4,28 +4,71 @@
               xsi:schemaLocation="http://www.opengis.net/wmts/1.0 http://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd"
               version="1.0.0">
     <ows:ServiceIdentification>
-        <ows:Title>MapBox</ows:Title>
+        <ows:Title>openstreetmap.org</ows:Title>
         <ows:Abstract>
+            OpenStreetMap is an initiative to create and provide free geographic data, such as street maps, to anyone.
         </ows:Abstract>
         <ows:ServiceType>OGC WMTS</ows:ServiceType>
         <ows:ServiceTypeVersion>1.0.0</ows:ServiceTypeVersion>
         <ows:Fees>none</ows:Fees>
-        <ows:AccessConstraints></ows:AccessConstraints>
+        <ows:AccessConstraints>https://operations.osmfoundation.org/policies/tiles/</ows:AccessConstraints>
     </ows:ServiceIdentification>
     <Contents>
         <Layer>
-            <ows:Title>MapBox - comic</ows:Title>
-            <ows:Abstract></ows:Abstract>
-            <ows:Identifier>mapbox-comic</ows:Identifier>
+            <ows:Title>OpenCycleMap</ows:Title>
+            <ows:Abstract> OpenCycleMap</ows:Abstract>
+            <ows:Identifier>osm-opencyclemap</ows:Identifier>
             <Style isDefault="true">
-                <ows:Identifier>mapbox-comic</ows:Identifier>
+                <ows:Identifier>mapnik</ows:Identifier>
             </Style>
             <Format>image/png</Format>
             <TileMatrixSetLink>
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://a.tiles.mapbox.com/v4/mapbox.comic/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1IjoiYmVydHQiLCJhIjoiaWFvN1Z4USJ9.k04Q6CVms4Gx7KDZxvAx2A"
+                        template="https://a.tile.thunderforest.com/cycle/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=a5dd6a2f1c934394bce6b0fb077203eb"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>OpenStreetMap</ows:Title>
+            <ows:Abstract>Standard OSM Layer rendered using openstreetmap-carto and Mapnik</ows:Abstract>
+            <ows:Identifier>osm-mapnik</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>mapnik</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://a.tile.openstreetmap.org/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://b.tile.openstreetmap.org/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://c.tile.openstreetmap.org/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>Humanitarian</ows:Title>
+            <ows:Abstract>Humanitarian OpenStreetMap Team</ows:Abstract>
+            <ows:Identifier>hot</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>hot</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://tile-a.openstreetmap.fr/{Style}{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://tile-b.openstreetmap.fr/{Style}/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://tile-c.openstreetmap.fr/{Style}/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
         </Layer>
         <TileMatrixSet>

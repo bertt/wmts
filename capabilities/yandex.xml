@@ -4,7 +4,7 @@
               xsi:schemaLocation="http://www.opengis.net/wmts/1.0 http://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd"
               version="1.0.0">
     <ows:ServiceIdentification>
-        <ows:Title>MapBox</ows:Title>
+        <ows:Title>Stamen</ows:Title>
         <ows:Abstract>
         </ows:Abstract>
         <ows:ServiceType>OGC WMTS</ows:ServiceType>
@@ -14,18 +14,48 @@
     </ows:ServiceIdentification>
     <Contents>
         <Layer>
-            <ows:Title>MapBox - outdoors</ows:Title>
+            <ows:Title>Yandex - labels</ows:Title>
             <ows:Abstract></ows:Abstract>
-            <ows:Identifier>mapbox-outdoors</ows:Identifier>
+            <ows:Identifier>yandex-labels</ows:Identifier>
             <Style isDefault="true">
-                <ows:Identifier>mapbox-outdoors</ows:Identifier>
+                <ows:Identifier>yandex</ows:Identifier>
             </Style>
             <Format>image/png</Format>
             <TileMatrixSetLink>
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://a.tiles.mapbox.com/v4/mapbox.outdoors/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1IjoiYmVydHQiLCJhIjoiaWFvN1Z4USJ9.k04Q6CVms4Gx7KDZxvAx2A"
+                         template="https://vec01.maps.yandex.net/tiles?l=skl&amp;v=4.84.0&amp;x={TileCol}&amp;y={TileRow}&amp;z={TileMatrix}"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>Yandex - satellite</ows:Title>
+            <ows:Abstract></ows:Abstract>
+            <ows:Identifier>yandex-satellite</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>yandex</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://sat01.maps.yandex.net/tiles?l=sat&amp;v=4.84.0&amp;x={TileCol}&amp;y={TileRow}&amp;z={TileMatrix}"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>Yandex - streets</ows:Title>
+            <ows:Abstract></ows:Abstract>
+            <ows:Identifier>yandex-streets</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>yandex</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://vec01.maps.yandex.net/tiles?l=map&amp;v=4.84.0&amp;x={TileCol}&amp;y={TileRow}&amp;z={TileMatrix}"
                          resourceType="tile"/>
         </Layer>
         <TileMatrixSet>

@@ -4,7 +4,7 @@
               xsi:schemaLocation="http://www.opengis.net/wmts/1.0 http://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd"
               version="1.0.0">
     <ows:ServiceIdentification>
-        <ows:Title>Stamen</ows:Title>
+        <ows:Title>Carto</ows:Title>
         <ows:Abstract>
         </ows:Abstract>
         <ows:ServiceType>OGC WMTS</ows:ServiceType>
@@ -14,20 +14,36 @@
     </ows:ServiceIdentification>
     <Contents>
         <Layer>
-            <ows:Title>Yandex - labels</ows:Title>
+            <ows:Title>Carto - dark</ows:Title>
             <ows:Abstract></ows:Abstract>
-            <ows:Identifier>yandex_labels</ows:Identifier>
+            <ows:Identifier>carto-dark</ows:Identifier>
             <Style isDefault="true">
-                <ows:Identifier>yandex</ows:Identifier>
+                <ows:Identifier>carto-dark</ows:Identifier>
             </Style>
             <Format>image/png</Format>
             <TileMatrixSetLink>
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://vec01.maps.yandex.net/tiles?l=skl&amp;v=4.84.0&amp;x={TileCol}&amp;y={TileRow}&amp;z={TileMatrix}"
+                         template="https://a.basemaps.cartocdn.com/dark_all/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
         </Layer>
+        <Layer>
+            <ows:Title>Carto - light</ows:Title>
+            <ows:Abstract></ows:Abstract>
+            <ows:Identifier>carto-light</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>carto-light</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://a.basemaps.cartocdn.com/light_all/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+        </Layer>
+        
         <TileMatrixSet>
             <ows:Identifier>google3857</ows:Identifier>
             <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.18.3:3857">

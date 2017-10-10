@@ -4,7 +4,7 @@
               xsi:schemaLocation="http://www.opengis.net/wmts/1.0 http://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd"
               version="1.0.0">
     <ows:ServiceIdentification>
-        <ows:Title>Stamen</ows:Title>
+        <ows:Title></ows:Title>
         <ows:Abstract>
         </ows:Abstract>
         <ows:ServiceType>OGC WMTS</ows:ServiceType>
@@ -14,18 +14,31 @@
     </ows:ServiceIdentification>
     <Contents>
         <Layer>
-            <ows:Title>Strava - running</ows:Title>
+            <ows:Title>IsHowChina - Streets</ows:Title>
+            <ows:WGS84BoundingBox>
+                <ows:LowerCorner>72 20</ows:LowerCorner>
+                <ows:UpperCorner>137 56</ows:UpperCorner>
+            </ows:WGS84BoundingBox>
             <ows:Abstract></ows:Abstract>
-            <ows:Identifier>strava_running</ows:Identifier>
+            <ows:Identifier>ishowchina-streets</ows:Identifier>
             <Style isDefault="true">
-                <ows:Identifier>strava</ows:Identifier>
+                <ows:Identifier>ishowchina</ows:Identifier>
             </Style>
             <Format>image/png</Format>
             <TileMatrixSetLink>
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="http://globalheat.strava.com/tiles/running/color3/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         template="http://tile1.ishowchina.com/v3/tile/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="http://tile2.ishowchina.com/v3/tile/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="http://tile3.ishowchina.com/v3/tile/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="http://tile4.ishowchina.com/v3/tile/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
         </Layer>
         <TileMatrixSet>
