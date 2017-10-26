@@ -4,7 +4,7 @@
               xsi:schemaLocation="http://www.opengis.net/wmts/1.0 http://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd"
               version="1.0.0">
     <ows:ServiceIdentification>
-        <ows:Title>MapBox</ows:Title>
+        <ows:Title>Gaode</ows:Title>
         <ows:Abstract>
         </ows:Abstract>
         <ows:ServiceType>OGC WMTS</ows:ServiceType>
