@@ -43,6 +43,22 @@
                          template="http://globalheat.strava.com/tiles/cycling/color3/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
         </Layer>
+        <Layer>
+            <ows:Title>Strava - running and cycling</ows:Title>
+            <ows:Abstract></ows:Abstract>
+            <ows:Identifier>strava-both</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>strava</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="http://globalheat.strava.com/tiles/both/color3/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+        </Layer>
+      
         <TileMatrixSet>
             <ows:Identifier>google3857</ows:Identifier>
             <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.18.3:3857">
@@ -212,15 +228,6 @@
                 <TileHeight>256</TileHeight>
                 <MatrixWidth>131072</MatrixWidth>
                 <MatrixHeight>131072</MatrixHeight>
-            </TileMatrix>
-            <TileMatrix>
-                <ows:Identifier>18</ows:Identifier>
-                <ScaleDenominator>2132.72958385</ScaleDenominator>
-                <TopLeftCorner>-20037508.3428 20037508.3428</TopLeftCorner>
-                <TileWidth>256</TileWidth>
-                <TileHeight>256</TileHeight>
-                <MatrixWidth>262144</MatrixWidth>
-                <MatrixHeight>262144</MatrixHeight>
             </TileMatrix>
         </TileMatrixSet>
     </Contents>
