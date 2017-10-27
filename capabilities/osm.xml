@@ -19,7 +19,7 @@
             <ows:Abstract>OSM Black and White</ows:Abstract>
             <ows:Identifier>osm-blackwhite</ows:Identifier>
             <Style isDefault="true">
-                <ows:Identifier>os-blackwhite</ows:Identifier>
+                <ows:Identifier>osm-blackwhite</ows:Identifier>
             </Style>
             <Format>image/png</Format>
             <TileMatrixSetLink>
