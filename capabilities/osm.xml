@@ -15,18 +15,18 @@
     </ows:ServiceIdentification>
     <Contents>
         <Layer>
-            <ows:Title>OpenCycleMap</ows:Title>
-            <ows:Abstract> OpenCycleMap</ows:Abstract>
-            <ows:Identifier>osm-opencyclemap</ows:Identifier>
+            <ows:Title>OpenStreetMap Black and White</ows:Title>
+            <ows:Abstract>OSM Black and White</ows:Abstract>
+            <ows:Identifier>osm-blackwhite</ows:Identifier>
             <Style isDefault="true">
-                <ows:Identifier>mapnik</ows:Identifier>
+                <ows:Identifier>os-blackwhite</ows:Identifier>
             </Style>
             <Format>image/png</Format>
             <TileMatrixSetLink>
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                        template="https://a.tile.thunderforest.com/cycle/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=a5dd6a2f1c934394bce6b0fb077203eb"
+                         template="http://a.tiles.wmflabs.org/bw-mapnik/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
         </Layer>
         <Layer>
