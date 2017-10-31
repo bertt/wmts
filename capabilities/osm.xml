@@ -51,24 +51,25 @@
                          resourceType="tile"/>
         </Layer>
         <Layer>
-            <ows:Title>Humanitarian</ows:Title>
-            <ows:Abstract>Humanitarian OpenStreetMap Team</ows:Abstract>
-            <ows:Identifier>hot</ows:Identifier>
+            <ows:Title>OpenStreetMap.DE</ows:Title>
+            <ows:Abstract>OpenStreetMap.DE</ows:Abstract>
+            <ows:Identifier>OpenStreetMap.DE</ows:Identifier>
             <Style isDefault="true">
-                <ows:Identifier>hot</ows:Identifier>
+                <ows:Identifier>OpenStreetMap.DE</ows:Identifier>
             </Style>
             <Format>image/png</Format>
             <TileMatrixSetLink>
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
+          https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png'
             <ResourceURL format="image/png"
-                         template="https://tile-a.openstreetmap.fr/{Style}{TileMatrix}/{TileCol}/{TileRow}.png"
+                         template="https://a.tile.openstreetmap.de/tiles/osmde/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
             <ResourceURL format="image/png"
-                         template="https://tile-b.openstreetmap.fr/{Style}/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         template="https://b.tile.openstreetmap.de/tiles/osmde/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
             <ResourceURL format="image/png"
-                         template="https://tile-c.openstreetmap.fr/{Style}/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         template="https://c.tile.openstreetmap.de/tiles/osmde/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
         </Layer>
         <TileMatrixSet>
