@@ -1,6 +1,8 @@
 # bertt/wmts
 
-Collection of WMTS services
+Collection of WMTS services. Sample viewer see <a href="https://bertt.github.io/wmts/">https://bertt.github.io/wmts/</a>
+
+For other applications: 
 
 Sample retrieving capabilities files on github.io:
 
