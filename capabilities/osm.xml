@@ -83,13 +83,13 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
           <ResourceURL format="image/png"
-                         template="https://a..tile.openstreetmap.fr/osmfr/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         template="https://a.tile.openstreetmap.fr/osmfr/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
             <ResourceURL format="image/png"
                          template="https://b.tile.openstreetmap.fr/osmfr/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
             <ResourceURL format="image/png"
-                         template="https://c..tile.openstreetmap.fr/osmfr/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         template="https://c.tile.openstreetmap.fr/osmfr/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
         </Layer>
         <TileMatrixSet>
