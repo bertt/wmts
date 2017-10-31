@@ -33,7 +33,133 @@
                          template="https://c.tile.thunderforest.com/cycle/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
                          resourceType="tile"/>
         </Layer>
-        <TileMatrixSet>
+        <Layer>
+            <ows:Title>Thunderforest.Transport</ows:Title>
+            <ows:Abstract>Thunderforest.Transport</ows:Abstract>
+            <ows:Identifier>thunderforest-transport</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>thunderforest-transport</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://a.tile.thunderforest.com/transport/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://b.tile.thunderforest.com/transport/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://c.tile.thunderforest.com/transport/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>Thunderforest.TransportDark</ows:Title>
+            <ows:Abstract>Thunderforest.TransporDark</ows:Abstract>
+            <ows:Identifier>thunderforest-transportdark</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>thunderforest-transportdark</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://a.tile.thunderforest.com/transport-dark/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://b.tile.thunderforest.com/transport-dark/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://c.tile.thunderforest.com/transport-dark/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>Thunderforest.Landscape</ows:Title>
+            <ows:Abstract>Thunderforest.Landscape</ows:Abstract>
+            <ows:Identifier>thunderforest-landscape</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>thunderforest-landscape</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://a.tile.thunderforest.com/landscape/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://b.tile.thunderforest.com/landscape/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://c.tile.thunderforest.com/landscape/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>Thunderforest.SpinalMap</ows:Title>
+            <ows:Abstract>Thunderforest.SpinalMap</ows:Abstract>
+            <ows:Identifier>thunderforest-spinalmap</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>thunderforest-spinalmap</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://a.tile.thunderforest.com/spinal-map/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://b.tile.thunderforest.com/spinal-map/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://c.tile.thunderforest.com/spinal-map/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>Thunderforest.Outdoors</ows:Title>
+            <ows:Abstract>Thunderforest.Outdoors</ows:Abstract>
+            <ows:Identifier>thunderforest-outdoors</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>thunderforest-outdoors</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://a.tile.thunderforest.com/outdoors/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://b.tile.thunderforest.com/outdoors/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://c.tile.thunderforest.com/outdoors/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>Thunderforest.Pioneer</ows:Title>
+            <ows:Abstract>Thunderforest.Pioneer</ows:Abstract>
+            <ows:Identifier>thunderforest-pioneer</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>thunderforest-pioneer</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://a.tile.thunderforest.com/pioneer/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://b.tile.thunderforest.com/pioneer/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://c.tile.thunderforest.com/pioneer/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
+                         resourceType="tile"/>
+        </Layer>
+|       <TileMatrixSet>
             <ows:Identifier>google3857</ows:Identifier>
             <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.18.3:3857">
                 <ows:LowerCorner>977650 5838030</ows:LowerCorner>
