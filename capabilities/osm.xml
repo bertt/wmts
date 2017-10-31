@@ -92,6 +92,27 @@
                          template="https://c.tile.openstreetmap.fr/osmfr/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
         </Layer>
+        <Layer>
+            <ows:Title>OpenStreetMap.OpenTopoMap</ows:Title>
+            <ows:Abstract>OpenStreetMap.OpenTopoMap</ows:Abstract>
+            <ows:Identifier>OpenStreetMap.OpenTopoMap</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>OpenStreetMap.OpenTopoMap</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+          <ResourceURL format="image/png"
+                         template="https://a.tile.opentopomap.org/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://b.tile.opentopomap.org/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://c.tile.opentopomap.org/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+        </Layer>
         <TileMatrixSet>
             <ows:Identifier>google3857</ows:Identifier>
             <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.18.3:3857">
