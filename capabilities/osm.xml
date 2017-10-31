@@ -61,7 +61,6 @@
             <TileMatrixSetLink>
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
-          https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png'
             <ResourceURL format="image/png"
                          template="https://a.tile.openstreetmap.de/tiles/osmde/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
@@ -70,6 +69,27 @@
                          resourceType="tile"/>
             <ResourceURL format="image/png"
                          template="https://c.tile.openstreetmap.de/tiles/osmde/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>OpenStreetMap.FR</ows:Title>
+            <ows:Abstract>OpenStreetMap.FR</ows:Abstract>
+            <ows:Identifier>OpenStreetMap.FR</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>OpenStreetMap.FR</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+          <ResourceURL format="image/png"
+                         template="https://a..tile.openstreetmap.fr/osmfr/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://b.tile.openstreetmap.fr/osmfr/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://c..tile.openstreetmap.fr/osmfr/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
         </Layer>
         <TileMatrixSet>
