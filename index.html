@@ -13,13 +13,12 @@
       var parser = new ol.format.WMTSCapabilities();
       var map;
 
-      fetch('https://openlayers.org/en/v4.4.2/examples/data/WMTSCapabilities.xml').then(function(response) {
+      fetch('./capabilities/osm.xml').then(function(response) {
         return response.text();
       }).then(function(text) {
         var result = parser.read(text);
         var options = ol.source.WMTS.optionsFromCapabilities(result, {
-          layer: 'layer-7328',
-          matrixSet: 'EPSG:3857'
+          layer: 'osm-blackwhite'
         });
 
         map = new ol.Map({
