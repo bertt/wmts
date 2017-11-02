@@ -4,7 +4,7 @@
               xsi:schemaLocation="http://www.opengis.net/wmts/1.0 http://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd"
               version="1.0.0">
     <ows:ServiceIdentification>
-        <ows:Title>Stamen</ows:Title>
+        <ows:Title>Strava</ows:Title>
         <ows:Abstract>
         </ows:Abstract>
         <ows:ServiceType>OGC WMTS</ows:ServiceType>
@@ -56,6 +56,21 @@
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
                          template="http://globalheat.strava.com/tiles/both/color3/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>Strava - riding</ows:Title>
+            <ows:Abstract></ows:Abstract>
+            <ows:Identifier>strava-riding</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>strava</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://heatmap-external-b.strava.com/tiles/ride/blue/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
                          resourceType="tile"/>
         </Layer>
       

@@ -53,9 +53,9 @@
         <Layer>
             <ows:Title>OpenStreetMap.DE</ows:Title>
             <ows:Abstract>OpenStreetMap.DE</ows:Abstract>
-            <ows:Identifier>OpenStreetMap.DE</ows:Identifier>
+            <ows:Identifier>osm-openstreetmap.de</ows:Identifier>
             <Style isDefault="true">
-                <ows:Identifier>OpenStreetMap.DE</ows:Identifier>
+                <ows:Identifier>osm-openstreetmap.de</ows:Identifier>
             </Style>
             <Format>image/png</Format>
             <TileMatrixSetLink>
@@ -74,7 +74,7 @@
         <Layer>
             <ows:Title>OpenStreetMap.FR</ows:Title>
             <ows:Abstract>OpenStreetMap.FR</ows:Abstract>
-            <ows:Identifier>OpenStreetMap.FR</ows:Identifier>
+            <ows:Identifier>osm-openstreetmap.fr</ows:Identifier>
             <Style isDefault="true">
                 <ows:Identifier>OpenStreetMap.FR</ows:Identifier>
             </Style>
@@ -95,7 +95,7 @@
         <Layer>
             <ows:Title>OpenStreetMap.OpenTopoMap</ows:Title>
             <ows:Abstract>OpenStreetMap.OpenTopoMap</ows:Abstract>
-            <ows:Identifier>OpenStreetMap.OpenTopoMap</ows:Identifier>
+            <ows:Identifier>osm-openstreetmap.opentopomap</ows:Identifier>
             <Style isDefault="true">
                 <ows:Identifier>OpenStreetMap.OpenTopoMap</ows:Identifier>
             </Style>
