@@ -4,7 +4,7 @@
               xsi:schemaLocation="http://www.opengis.net/wmts/1.0 http://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd"
               version="1.0.0">
     <ows:ServiceIdentification>
-        <ows:Title>Strava</ows:Title>
+        <ows:Title>Strava 2017</ows:Title>
         <ows:Abstract>
         </ows:Abstract>
         <ows:ServiceType>OGC WMTS</ows:ServiceType>
@@ -13,51 +13,6 @@
         <ows:AccessConstraints></ows:AccessConstraints>
     </ows:ServiceIdentification>
     <Contents>
-        <Layer>
-            <ows:Title>Strava - running</ows:Title>
-            <ows:Abstract></ows:Abstract>
-            <ows:Identifier>strava-running</ows:Identifier>
-            <Style isDefault="true">
-                <ows:Identifier>strava</ows:Identifier>
-            </Style>
-            <Format>image/png</Format>
-            <TileMatrixSetLink>
-                <TileMatrixSet>google3857</TileMatrixSet>
-            </TileMatrixSetLink>
-            <ResourceURL format="image/png"
-                         template="http://globalheat.strava.com/tiles/running/color3/{TileMatrix}/{TileCol}/{TileRow}.png"
-                         resourceType="tile"/>
-        </Layer>
-        <Layer>
-            <ows:Title>Strava - cycling</ows:Title>
-            <ows:Abstract></ows:Abstract>
-            <ows:Identifier>strava-cycling</ows:Identifier>
-            <Style isDefault="true">
-                <ows:Identifier>strava</ows:Identifier>
-            </Style>
-            <Format>image/png</Format>
-            <TileMatrixSetLink>
-                <TileMatrixSet>google3857</TileMatrixSet>
-            </TileMatrixSetLink>
-            <ResourceURL format="image/png"
-                         template="http://globalheat.strava.com/tiles/cycling/color3/{TileMatrix}/{TileCol}/{TileRow}.png"
-                         resourceType="tile"/>
-        </Layer>
-        <Layer>
-            <ows:Title>Strava - running and cycling</ows:Title>
-            <ows:Abstract></ows:Abstract>
-            <ows:Identifier>strava-both</ows:Identifier>
-            <Style isDefault="true">
-                <ows:Identifier>strava</ows:Identifier>
-            </Style>
-            <Format>image/png</Format>
-            <TileMatrixSetLink>
-                <TileMatrixSet>google3857</TileMatrixSet>
-            </TileMatrixSetLink>
-            <ResourceURL format="image/png"
-                         template="http://globalheat.strava.com/tiles/both/color3/{TileMatrix}/{TileCol}/{TileRow}.png"
-                         resourceType="tile"/>
-        </Layer>
         <Layer>
             <ows:Title>Strava - riding</ows:Title>
             <ows:Abstract></ows:Abstract>
@@ -234,15 +189,6 @@
                 <TileHeight>256</TileHeight>
                 <MatrixWidth>65536</MatrixWidth>
                 <MatrixHeight>65536</MatrixHeight>
-            </TileMatrix>
-            <TileMatrix>
-                <ows:Identifier>17</ows:Identifier>
-                <ScaleDenominator>4265.45916770</ScaleDenominator>
-                <TopLeftCorner>-20037508.3428 20037508.3428</TopLeftCorner>
-                <TileWidth>256</TileWidth>
-                <TileHeight>256</TileHeight>
-                <MatrixWidth>131072</MatrixWidth>
-                <MatrixHeight>131072</MatrixHeight>
             </TileMatrix>
         </TileMatrixSet>
     </Contents>
