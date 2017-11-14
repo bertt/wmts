@@ -36,6 +36,15 @@
             </ows:BoundingBox>
             <ows:SupportedCRS>urn:ogc:def:crs:EPSG:6.18.3:3857</ows:SupportedCRS>
             <WellKnownScaleSet>urn:ogc:def:wkss:OGC:1.0:GoogleMapsCompatible</WellKnownScaleSet>
+           <TileMatrix>
+              <ows:Identifier>0</ows:Identifier>
+              <ScaleDenominator>559082264.029</ScaleDenominator>
+              <TopLeftCorner>-20037508.3428 20037508.3428</TopLeftCorner>
+              <TileWidth>256</TileWidth>
+              <TileHeight>256</TileHeight>
+              <MatrixWidth>1</MatrixWidth>
+              <MatrixHeight>1</MatrixHeight>
+            </TileMatrix>
             <TileMatrix>
                 <ows:Identifier>1</ows:Identifier>
                 <ScaleDenominator>279541132.015</ScaleDenominator>
