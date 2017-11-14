@@ -97,11 +97,11 @@
                          resourceType="tile"/>
         </Layer>
         <Layer>
-            <ows:Title>Thunderforest.SpinalMap</ows:Title>
-            <ows:Abstract>Thunderforest.SpinalMap</ows:Abstract>
-            <ows:Identifier>thunderforest-spinalmap</ows:Identifier>
+            <ows:Title>Thunderforest.Spinal</ows:Title>
+            <ows:Abstract>Thunderforest.Spinal</ows:Abstract>
+            <ows:Identifier>thunderforest-spinal</ows:Identifier>
             <Style isDefault="true">
-                <ows:Identifier>thunderforest-spinalmap</ows:Identifier>
+                <ows:Identifier>thunderforest-spinal</ows:Identifier>
             </Style>
             <Format>image/png</Format>
             <TileMatrixSetLink>
