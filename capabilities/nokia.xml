@@ -85,7 +85,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="http://1.aerial.maps.api.here.com/maptile/2.1/newest/hybrid.day.transit/{TileMatrix}/{TileCol}/{TileRow}/256/png?app_id=xWVIueSv6JL0aJ5xqTxb&amp;app_code=djPZyynKsbTjIUDOBcHZ2g"
+                         template="http://1.aerial.maps.api.here.com/maptile/2.1/maptile/newest/hybrid.day.transit/{TileMatrix}/{TileCol}/{TileRow}/256/png?app_id=xWVIueSv6JL0aJ5xqTxb&amp;app_code=djPZyynKsbTjIUDOBcHZ2g"
                          resourceType="tile"/>
         </Layer>
         <Layer>
