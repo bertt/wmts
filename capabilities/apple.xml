@@ -28,6 +28,21 @@
                         template="http://cdn-cn1.apple-mapkit.com/tp/2/tiles?x={TileCol}&amp;y={TileRow}&amp;z={TileMatrix}&amp;lang=zh-Hans&amp;size=1&amp;scale=1&amp;style=0&amp;vendorkey=546bccd01bb595c1ae74836bf94b56735aa7f907"
                          resourceType="tile"/>
         </Layer>
+        <Layer>
+            <ows:Title>Apple - Satellite</ows:Title>
+            <ows:Abstract></ows:Abstract>
+            <ows:Identifier>apple-satellite</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>apple-satellite</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://sat-cdn3.apple-mapkit.com/tile?style=7&size=1&scale=1&z={TileMatrix}&x={TileCol}&y={TileRow}&vendorkey=546bccd01bb595c1ae74836bf94b56735aa7f907&v=203"
+                         resourceType="tile"/>
+        </Layer>
         <TileMatrixSet>
             <ows:Identifier>google3857</ows:Identifier>
             <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.18.3:4326">
