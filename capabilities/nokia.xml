@@ -136,16 +136,16 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="http://1.maps.nlp.nokia.com/maptile/2.1/maptile/newest/hybrid.day/{TileMatrix}/{TileCol}/{TileRow}/256/png?app_id=xWVIueSv6JL0aJ5xqTxb&amp;app_code=djPZyynKsbTjIUDOBcHZ2g"
+                         template="http://1.aerial.maps.cit.api.here.com/maptile/2.1/maptile/newest/hybrid.day/{TileMatrix}/{TileCol}/{TileRow}/256/png?app_id=xWVIueSv6JL0aJ5xqTxb&amp;app_code=djPZyynKsbTjIUDOBcHZ2g"
                          resourceType="tile"/>
             <ResourceURL format="image/png"
-                         template="http://2.maps.nlp.nokia.com/maptile/2.1/maptile/newest/hybrid.day/{TileMatrix}/{TileCol}/{TileRow}/256/png?app_id=xWVIueSv6JL0aJ5xqTxb&amp;app_code=djPZyynKsbTjIUDOBcHZ2g"
+                         template="http://2.aerial.maps.cit.api.here.com/maptile/2.1/maptile/newest/hybrid.day/{TileMatrix}/{TileCol}/{TileRow}/256/png?app_id=xWVIueSv6JL0aJ5xqTxb&amp;app_code=djPZyynKsbTjIUDOBcHZ2g"
                          resourceType="tile"/>
             <ResourceURL format="image/png"
-                         template="http://3.maps.nlp.nokia.com/maptile/2.1/maptile/newest/hybrid.day/{TileMatrix}/{TileCol}/{TileRow}/256/png?app_id=xWVIueSv6JL0aJ5xqTxb&amp;app_code=djPZyynKsbTjIUDOBcHZ2g"
+                         template="http://3.aerial.maps.cit.api.here.com/maptile/2.1/maptile/newest/hybrid.day/{TileMatrix}/{TileCol}/{TileRow}/256/png?app_id=xWVIueSv6JL0aJ5xqTxb&amp;app_code=djPZyynKsbTjIUDOBcHZ2g"
                          resourceType="tile"/>
             <ResourceURL format="image/png"
-                         template="http://4.maps.nlp.nokia.com/maptile/2.1/maptile/newest/hybrid.day/{TileMatrix}/{TileCol}/{TileRow}/256/png?app_id=xWVIueSv6JL0aJ5xqTxb&amp;app_code=djPZyynKsbTjIUDOBcHZ2g"
+                         template="http://4.aerial.maps.cit.api.here.com/maptile/2.1/maptile/newest/hybrid.day/{TileMatrix}/{TileCol}/{TileRow}/256/png?app_id=xWVIueSv6JL0aJ5xqTxb&amp;app_code=djPZyynKsbTjIUDOBcHZ2g"
                          resourceType="tile"/>
         </Layer>
         <TileMatrixSet>
