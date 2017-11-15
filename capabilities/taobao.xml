@@ -18,7 +18,7 @@
             <ows:Abstract></ows:Abstract>
             <ows:Identifier>taobao-streets</ows:Identifier>
             <Style isDefault="true">
-                <ows:Identifier>taobo-streets</ows:Identifier>
+                <ows:Identifier>taobao-streets</ows:Identifier>
             </Style>
             <Format>image/png</Format>
             <TileMatrixSetLink>
@@ -33,7 +33,7 @@
             <ows:Abstract></ows:Abstract>
             <ows:Identifier>taobao-satellite</ows:Identifier>
             <Style isDefault="true">
-                <ows:Identifier>taobo-satellite</ows:Identifier>
+                <ows:Identifier>taobao-satellite</ows:Identifier>
             </Style>
             <Format>image/png</Format>
             <TileMatrixSetLink>
