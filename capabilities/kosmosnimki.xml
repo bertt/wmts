@@ -4,7 +4,7 @@
               xsi:schemaLocation="http://www.opengis.net/wmts/1.0 http://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd"
               version="1.0.0">
     <ows:ServiceIdentification>
-        <ows:Title>Kosmosnimky</ows:Title>
+        <ows:Title>Kosmosnimki</ows:Title>
         <ows:Abstract>
         </ows:Abstract>
         <ows:ServiceType>OGC WMTS</ows:ServiceType>
@@ -14,11 +14,11 @@
     </ows:ServiceIdentification>
     <Contents>
         <Layer>
-            <ows:Title>Kosmosnimky - streets</ows:Title>
+            <ows:Title>Kosmosnimki - streets</ows:Title>
             <ows:Abstract></ows:Abstract>
-            <ows:Identifier>kosmosnimky-streets</ows:Identifier>
+            <ows:Identifier>kosmosnimki-streets</ows:Identifier>
             <Style isDefault="true">
-                <ows:Identifier>kosmosnimky</ows:Identifier>
+                <ows:Identifier>kosmosnimki</ows:Identifier>
             </Style>
             <Format>image/png</Format>
             <TileMatrixSetLink>
