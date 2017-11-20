@@ -25,7 +25,13 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://heatmap-external-b.strava.com/tiles/{activity_type}/{color}/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         template="https://heatmap-external-a.strava.com/tiles/{activity_type}/{color}/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://heatmap-external-b.strava.com/tiles/{activity_type}/{color}/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://heatmap-external-c.strava.com/tiles/{activity_type}/{color}/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
                          resourceType="tile"/>
         </Layer>
       
