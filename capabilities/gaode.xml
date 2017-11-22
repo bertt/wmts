@@ -45,10 +45,10 @@
         </Layer>
         <TileMatrixSet>
             <ows:Identifier>google3857</ows:Identifier>
-            <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.18.3:3857">
-                <ows:LowerCorner>977650 5838030</ows:LowerCorner>
-                <ows:UpperCorner>1913530 6281290</ows:UpperCorner>
-            </ows:BoundingBox>
+            <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.18.3:4326">
+              <ows:LowerCorner>68.25 21.63</ows:LowerCorner>
+              <ows:UpperCorner>135.44 54.8</ows:UpperCorner>
+            </ows:BoundingBox>              
             <ows:SupportedCRS>urn:ogc:def:crs:EPSG:6.18.3:3857</ows:SupportedCRS>
             <WellKnownScaleSet>urn:ogc:def:wkss:OGC:1.0:GoogleMapsCompatible</WellKnownScaleSet>
             <TileMatrix>
