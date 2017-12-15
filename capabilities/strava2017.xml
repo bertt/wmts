@@ -14,9 +14,9 @@
     </ows:ServiceIdentification>
     <Contents>
         <Layer>
-            <ows:Title>Strava - riding</ows:Title>
+            <ows:Title>Strava - all</ows:Title>
             <ows:Abstract></ows:Abstract>
-            <ows:Identifier>strava-riding</ows:Identifier>
+            <ows:Identifier>strava-all</ows:Identifier>
             <Style isDefault="true">
                 <ows:Identifier>strava</ows:Identifier>
             </Style>
@@ -25,16 +25,99 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://heatmap-external-a.strava.com/tiles/{activity_type}/{color}/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
+                         template="https://heatmap-external-a.strava.com/tiles/all/hot/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
                          resourceType="tile"/>
             <ResourceURL format="image/png"
-                         template="https://heatmap-external-b.strava.com/tiles/{activity_type}/{color}/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
+                         template="https://heatmap-external-b.strava.com/tiles/all/hot/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
                          resourceType="tile"/>
             <ResourceURL format="image/png"
-                         template="https://heatmap-external-c.strava.com/tiles/{activity_type}/{color}/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
+                         template="https://heatmap-external-c.strava.com/tiles/all/hot/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
                          resourceType="tile"/>
         </Layer>
-      
+        <Layer>
+            <ows:Title>Strava - ride</ows:Title>
+            <ows:Abstract></ows:Abstract>
+            <ows:Identifier>strava-ride</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>strava</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://heatmap-external-a.strava.com/tiles/ride/hot/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://heatmap-external-b.strava.com/tiles/ride/hot/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://heatmap-external-c.strava.com/tiles/ride/hot/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>Strava - run</ows:Title>
+            <ows:Abstract></ows:Abstract>
+            <ows:Identifier>strava-run</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>strava</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://heatmap-external-a.strava.com/tiles/run/hot/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://heatmap-external-b.strava.com/tiles/run/hot/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://heatmap-external-c.strava.com/tiles/run/hot/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>Strava - water</ows:Title>
+            <ows:Abstract></ows:Abstract>
+            <ows:Identifier>strava-water</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>strava</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://heatmap-external-a.strava.com/tiles/water/hot/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://heatmap-external-b.strava.com/tiles/water/hot/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://heatmap-external-c.strava.com/tiles/water/hot/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>Strava - winter</ows:Title>
+            <ows:Abstract></ows:Abstract>
+            <ows:Identifier>strava-winter</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>strava</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://heatmap-external-a.strava.com/tiles/winter/hot/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://heatmap-external-b.strava.com/tiles/winter/hot/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://heatmap-external-c.strava.com/tiles/winter/hot/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
+                         resourceType="tile"/>
+        </Layer>
         <TileMatrixSet>
             <ows:Identifier>google3857</ows:Identifier>
             <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.18.3:4326">
