@@ -118,6 +118,28 @@
                          template="https://heatmap-external-c.strava.com/tiles/winter/hot/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
                          resourceType="tile"/>
         </Layer>
+        <Layer>
+            <ows:Title>Strava - winter blue</ows:Title>
+            <ows:Abstract></ows:Abstract>
+            <ows:Identifier>strava-winter-blue</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>strava</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://heatmap-external-a.strava.com/tiles/winter/blue/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://heatmap-external-b.strava.com/tiles/winter/blue/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
+                         resourceType="tile"/>
+            <ResourceURL format="image/png"
+                         template="https://heatmap-external-c.strava.com/tiles/winter/blue/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
+                         resourceType="tile"/>
+        </Layer>
+        
         <TileMatrixSet>
             <ows:Identifier>google3857</ows:Identifier>
             <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.18.3:4326">
