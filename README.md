@@ -18,7 +18,7 @@ Bluered layers: https://bertt.github.io/wmts/capabilities/strava-bluered.xml
 
 strava2017.xml is deprecated and will be removed later on.
 
-## Intructions
+## Instructions
 Sample viewer see <a href="https://bertt.github.io/wmts/">https://bertt.github.io/wmts/</a>
 
 For other applications: 
