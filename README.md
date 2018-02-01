@@ -9,8 +9,11 @@ Apple, Carto, Goade, Google, IsHowChina, Kosmosnimki, MapBox, MapSurfer, Micheli
 Note about Strava: There are several files for Strava heatmaps supporting the colors:
 
 Gold layers (default): https://bertt.github.io/wmts/capabilities/strava.xml
+
 Blue layers: https://bertt.github.io/wmts/capabilities/strava-blue.xml
+
 Gray layers: https://bertt.github.io/wmts/capabilities/strava-gray.xml
+
 Bluered layers: https://bertt.github.io/wmts/capabilities/strava-bluered.xml
 
 strava2017.xml is deprecated and will be removed later on.
