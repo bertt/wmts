@@ -25,13 +25,13 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://heatmap-external-a.strava.com/tiles/all/hot/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
+                         template="https://heatmap-external-a.strava.com/tiles/all/blue/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
                          resourceType="tile"/>
             <ResourceURL format="image/png"
-                         template="https://heatmap-external-b.strava.com/tiles/all/hot/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
+                         template="https://heatmap-external-b.strava.com/tiles/all/blue/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
                          resourceType="tile"/>
             <ResourceURL format="image/png"
-                         template="https://heatmap-external-c.strava.com/tiles/all/hot/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
+                         template="https://heatmap-external-c.strava.com/tiles/all/blue/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -46,13 +46,13 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://heatmap-external-a.strava.com/tiles/ride/hot/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
+                         template="https://heatmap-external-a.strava.com/tiles/ride/blue/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
                          resourceType="tile"/>
             <ResourceURL format="image/png"
-                         template="https://heatmap-external-b.strava.com/tiles/ride/hot/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
+                         template="https://heatmap-external-b.strava.com/tiles/ride/blue/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
                          resourceType="tile"/>
             <ResourceURL format="image/png"
-                         template="https://heatmap-external-c.strava.com/tiles/ride/hot/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
+                         template="https://heatmap-external-c.strava.com/tiles/ride/blue/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -67,13 +67,13 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://heatmap-external-a.strava.com/tiles/run/hot/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
+                         template="https://heatmap-external-a.strava.com/tiles/run/blue/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
                          resourceType="tile"/>
             <ResourceURL format="image/png"
-                         template="https://heatmap-external-b.strava.com/tiles/run/hot/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
+                         template="https://heatmap-external-b.strava.com/tiles/run/blue/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
                          resourceType="tile"/>
             <ResourceURL format="image/png"
-                         template="https://heatmap-external-c.strava.com/tiles/run/hot/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
+                         template="https://heatmap-external-c.strava.com/tiles/run/blue/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -88,13 +88,13 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://heatmap-external-a.strava.com/tiles/water/hot/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
+                         template="https://heatmap-external-a.strava.com/tiles/water/blue/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
                          resourceType="tile"/>
             <ResourceURL format="image/png"
-                         template="https://heatmap-external-b.strava.com/tiles/water/hot/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
+                         template="https://heatmap-external-b.strava.com/tiles/water/blue/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
                          resourceType="tile"/>
             <ResourceURL format="image/png"
-                         template="https://heatmap-external-c.strava.com/tiles/water/hot/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
+                         template="https://heatmap-external-c.strava.com/tiles/water/blue/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -109,13 +109,13 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://heatmap-external-a.strava.com/tiles/winter/hot/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
+                         template="https://heatmap-external-a.strava.com/tiles/winter/blue/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
                          resourceType="tile"/>
             <ResourceURL format="image/png"
-                         template="https://heatmap-external-b.strava.com/tiles/winter/hot/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
+                         template="https://heatmap-external-b.strava.com/tiles/winter/blue/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
                          resourceType="tile"/>
             <ResourceURL format="image/png"
-                         template="https://heatmap-external-c.strava.com/tiles/winter/hot/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
+                         template="https://heatmap-external-c.strava.com/tiles/winter/blue/{TileMatrix}/{TileCol}/{TileRow}.png?px=256"
                          resourceType="tile"/>
         </Layer>
         <TileMatrixSet>
