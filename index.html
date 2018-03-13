@@ -13,12 +13,12 @@
       var parser = new ol.format.WMTSCapabilities();
       var map;
 
-      fetch('./capabilities/strava2017.xml').then(function(response) {
+      fetch('./capabilities/strava.xml').then(function(response) {
         return response.text();
       }).then(function(text) {
         var result = parser.read(text);
         var options = ol.source.WMTS.optionsFromCapabilities(result, {
-          layer: 'strava-riding'
+          layer: 'strava-all'
         });
 
         map = new ol.Map({
