@@ -58,6 +58,36 @@
                          template="https://vec01.maps.yandex.net/tiles?l=map&amp;v=4.84.0&amp;x={TileCol}&amp;y={TileRow}&amp;z={TileMatrix}"
                          resourceType="tile"/>
         </Layer>
+        	        <Layer>
+            <ows:Title>Yandex - gps points</ows:Title>
+            <ows:Abstract></ows:Abstract>
+            <ows:Identifier>yandex gps point</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>yandex</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://core-gpstiles.maps.yandex.net/tiles?style=point&amp;x={TileCol}&amp;y={TileRow}&amp;z={TileMatrix}"
+                         resourceType="tile"/>
+        </Layer>
+		        <Layer>
+            <ows:Title>Yandex - gps red_combined</ows:Title>
+            <ows:Abstract></ows:Abstract>
+            <ows:Identifier>ygpx_red_combined</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>yandex</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://core-gpstiles.maps.yandex.net/tiles?style=red_combined&amp;x={TileCol}&amp;y={TileRow}&amp;z={TileMatrix}"
+                         resourceType="tile"/>
+        </Layer>
         <TileMatrixSet>
             <ows:Identifier>google3857</ows:Identifier>
             <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.18.3:4326">
