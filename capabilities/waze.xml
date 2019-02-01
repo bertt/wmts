@@ -16,7 +16,7 @@
         <Layer>
             <ows:Title>Waze</ows:Title>
             <ows:Abstract></ows:Abstract>
-            <ows:Identifier>waze</ows:Identifier>
+            <ows:Identifier>waze-waze</ows:Identifier>
             <Style isDefault="true">
                 <ows:Identifier>waze</ows:Identifier>
             </Style>
