@@ -40,9 +40,25 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
+                         template="https://a.tiles.mapbox.com/v4/mapbox.streets-basic/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1IjoiYmVydHQiLCJhIjoiaWFvN1Z4USJ9.k04Q6CVms4Gx7KDZxvAx2A"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>MapBox - streets-basic</ows:Title>
+            <ows:Abstract></ows:Abstract>
+            <ows:Identifier>mapbox-streets-basic</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>mapbox-streets-basic</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
                          template="https://a.tiles.mapbox.com/v4/mapbox.wheatpaste/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1IjoiYmVydHQiLCJhIjoiaWFvN1Z4USJ9.k04Q6CVms4Gx7KDZxvAx2A"
                          resourceType="tile"/>
         </Layer>
+      
         <Layer>
             <ows:Title>MapBox - streets</ows:Title>
             <ows:Abstract></ows:Abstract>
