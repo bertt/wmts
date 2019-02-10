@@ -20,7 +20,7 @@
             <Style isDefault="true">
                 <ows:Identifier>stamen</ows:Identifier>
             </Style>
-            <Format>image/png</Format>
+            <Format>image/png8</Format>
             <TileMatrixSetLink>
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
@@ -35,7 +35,7 @@
             <Style isDefault="true">
                 <ows:Identifier>stamen</ows:Identifier>
             </Style>
-            <Format>image/png</Format>
+            <Format>image/png8</Format>
             <TileMatrixSetLink>
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
