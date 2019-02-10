@@ -88,6 +88,21 @@
                          template="https://maps.tilehosting.com/styles/bright/{TileMatrix}/{TileCol}/{TileRow}.jpg?key=hWWfWrAiWGtv68r8wA6D"
                          resourceType="tile"/>
         </Layer>
+        <Layer>
+            <ows:Title>OpenMapTiles.Positron</ows:Title>
+            <ows:Abstract>OpenMapTiles.Positron</ows:Abstract>
+            <ows:Identifier>openmaptiles-positron</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>openmaptiles-positron</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://maps.tilehosting.com/styles/positron/{TileMatrix}/{TileCol}/{TileRow}.jpg?key=hWWfWrAiWGtv68r8wA6D"
+                         resourceType="tile"/>
+        </Layer>
        <TileMatrixSet>
             <ows:Identifier>google3857</ows:Identifier>
             <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.18.3:4326">
