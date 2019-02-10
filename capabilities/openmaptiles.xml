@@ -58,6 +58,21 @@
                          template="https://maps.tilehosting.com/styles/topo/{TileMatrix}/{TileCol}/{TileRow}.jpg?key=hWWfWrAiWGtv68r8wA6D"
                          resourceType="tile"/>
         </Layer>
+        <Layer>
+            <ows:Title>OpenMapTiles.Basic</ows:Title>
+            <ows:Abstract>OpenMapTiles.Basic</ows:Abstract>
+            <ows:Identifier>openmaptiles-basic</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>openmaptiles-basic</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://maps.tilehosting.com/styles/basic/{TileMatrix}/{TileCol}/{TileRow}.jpg?key=hWWfWrAiWGtv68r8wA6D"
+                         resourceType="tile"/>
+        </Layer>
        <TileMatrixSet>
             <ows:Identifier>google3857</ows:Identifier>
             <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.18.3:4326">
