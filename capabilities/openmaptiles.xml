@@ -12,6 +12,7 @@
         <ows:AccessConstraints>https://operations.osmfoundation.org/policies/tiles/</ows:AccessConstraints>
     </ows:ServiceIdentification>
     <Contents>
+      
         <Layer>
             <ows:Title>OpenMapTiles.Streets</ows:Title>
             <ows:Abstract>OpenMapTiles.Strees</ows:Abstract>
@@ -25,6 +26,21 @@
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
                          template="https://maps.tilehosting.com/styles/streets/{TileMatrix}/{TileCol}/{TileRow}.png?key=hWWfWrAiWGtv68r8wA6D"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>OpenMapTiles.Hybrid</ows:Title>
+            <ows:Abstract>OpenMapTiles.Hybrid</ows:Abstract>
+            <ows:Identifier>openmaptiles-hybrid</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>openmaptiles-hybrid</ows:Identifier>
+            </Style>
+            <Format>image/jpg</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/jpg"
+                         template="https://maps.tilehosting.com/styles/hybrid/{TileMatrix}/{TileCol}/{TileRow}.jpg?key=hWWfWrAiWGtv68r8wA6D"
                          resourceType="tile"/>
         </Layer>
 
