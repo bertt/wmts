@@ -55,7 +55,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://maps.tilehosting.com/styles/topo/{TileMatrix}/{TileCol}/{TileRow}.jpg?key=hWWfWrAiWGtv68r8wA6D"
+                         template="https://maps.tilehosting.com/styles/topo/{TileMatrix}/{TileCol}/{TileRow}.png?key=hWWfWrAiWGtv68r8wA6D"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -70,7 +70,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://maps.tilehosting.com/styles/basic/{TileMatrix}/{TileCol}/{TileRow}.jpg?key=hWWfWrAiWGtv68r8wA6D"
+                         template="https://maps.tilehosting.com/styles/basic/{TileMatrix}/{TileCol}/{TileRow}.png?key=hWWfWrAiWGtv68r8wA6D"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -85,7 +85,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://maps.tilehosting.com/styles/bright/{TileMatrix}/{TileCol}/{TileRow}.jpg?key=hWWfWrAiWGtv68r8wA6D"
+                         template="https://maps.tilehosting.com/styles/bright/{TileMatrix}/{TileCol}/{TileRow}.png?key=hWWfWrAiWGtv68r8wA6D"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -100,7 +100,22 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://maps.tilehosting.com/styles/positron/{TileMatrix}/{TileCol}/{TileRow}.jpg?key=hWWfWrAiWGtv68r8wA6D"
+                         template="https://maps.tilehosting.com/styles/positron/{TileMatrix}/{TileCol}/{TileRow}.png?key=hWWfWrAiWGtv68r8wA6D"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>OpenMapTiles.Darkmatter</ows:Title>
+            <ows:Abstract>OpenMapTiles.Darkmatter</ows:Abstract>
+            <ows:Identifier>openmaptiles-darkmatter</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>openmaptiles-darkmatter</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://maps.tilehosting.com/styles/darkmatter/{TileMatrix}/{TileCol}/{TileRow}.png?key=hWWfWrAiWGtv68r8wA6D"
                          resourceType="tile"/>
         </Layer>
        <TileMatrixSet>
