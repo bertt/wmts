@@ -15,21 +15,6 @@
     </ows:ServiceIdentification>
     <Contents>
         <Layer>
-            <ows:Title>OpenStreetMap Black and White</ows:Title>
-            <ows:Abstract>OSM Black and White</ows:Abstract>
-            <ows:Identifier>osm-blackwhite</ows:Identifier>
-            <Style isDefault="true">
-                <ows:Identifier>osm-blackwhite</ows:Identifier>
-            </Style>
-            <Format>image/png</Format>
-            <TileMatrixSetLink>
-                <TileMatrixSet>google3857</TileMatrixSet>
-            </TileMatrixSetLink>
-            <ResourceURL format="image/png"
-                         template="http://a.tiles.wmflabs.org/bw-mapnik/{TileMatrix}/{TileCol}/{TileRow}.png"
-                         resourceType="tile"/>
-        </Layer>
-        <Layer>
             <ows:Title>OpenStreetMap</ows:Title>
             <ows:Abstract>Standard OSM Layer rendered using openstreetmap-carto and Mapnik</ows:Abstract>
             <ows:Identifier>osm-mapnik</ows:Identifier>
