@@ -25,16 +25,16 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://worldtiles1.waze.com/tiles/{TileMatrix}/{TileCol}/{TileRow}.png?highres=true"
+                         template="https://worldtiles1.waze.com/tiles/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
             <ResourceURL format="image/png"
-                         template="https://worldtiles2.waze.com/tiles/{TileMatrix}/{TileCol}/{TileRow}.png?highres=true"
+                         template="https://worldtiles2.waze.com/tiles/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
             <ResourceURL format="image/png"
-                         template="https://worldtiles3.waze.com/tiles/{TileMatrix}/{TileCol}/{TileRow}.png?highres=true"
+                         template="https://worldtiles3.waze.com/tiles/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
             <ResourceURL format="image/png"
-                         template="https://worldtiles4.waze.com/tiles/{TileMatrix}/{TileCol}/{TileRow}.png?highres=true"
+                         template="https://worldtiles4.waze.com/tiles/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
         </Layer>
         <TileMatrixSet>
