@@ -35,11 +35,11 @@
             <Style isDefault="true">
                 <ows:Identifier>gaode-satellite</ows:Identifier>
             </Style>
-            <Format>image/png</Format>
+            <Format>image/jpg</Format>
             <TileMatrixSetLink>
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
-            <ResourceURL format="image/png"
+            <ResourceURL format="image/jpg"
                          template="http://webst01.is.autonavi.com/appmaptile?style=6&amp;x={TileCol}&amp;y={TileRow}&amp;z={TileMatrix}"            
                          resourceType="tile"/>
         </Layer>
