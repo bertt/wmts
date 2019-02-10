@@ -43,8 +43,22 @@
                          template="https://maps.tilehosting.com/styles/hybrid/{TileMatrix}/{TileCol}/{TileRow}.jpg?key=hWWfWrAiWGtv68r8wA6D"
                          resourceType="tile"/>
         </Layer>
-
-|       <TileMatrixSet>
+        <Layer>
+            <ows:Title>OpenMapTiles.Topo</ows:Title>
+            <ows:Abstract>OpenMapTiles.Topo</ows:Abstract>
+            <ows:Identifier>openmaptiles-topo</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>openmaptiles-topo</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://maps.tilehosting.com/styles/topo/{TileMatrix}/{TileCol}/{TileRow}.jpg?key=hWWfWrAiWGtv68r8wA6D"
+                         resourceType="tile"/>
+        </Layer>
+       <TileMatrixSet>
             <ows:Identifier>google3857</ows:Identifier>
             <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.18.3:4326">
                 <ows:LowerCorner>-180 -90</ows:LowerCorner>
