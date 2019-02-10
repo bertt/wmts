@@ -26,13 +26,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://a.tile.openstreetmap.org/{TileMatrix}/{TileCol}/{TileRow}.png"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="https://b.tile.openstreetmap.org/{TileMatrix}/{TileCol}/{TileRow}.png"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="https://c.tile.openstreetmap.org/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         template="https://tile.openstreetmap.org/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -47,13 +41,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://a.tile.openstreetmap.de/tiles/osmde/{TileMatrix}/{TileCol}/{TileRow}.png"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="https://b.tile.openstreetmap.de/tiles/osmde/{TileMatrix}/{TileCol}/{TileRow}.png"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="https://c.tile.openstreetmap.de/tiles/osmde/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         template="https://tile.openstreetmap.de/tiles/osmde/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -68,13 +56,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
           <ResourceURL format="image/png"
-                         template="https://a.tile.openstreetmap.fr/osmfr/{TileMatrix}/{TileCol}/{TileRow}.png"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="https://b.tile.openstreetmap.fr/osmfr/{TileMatrix}/{TileCol}/{TileRow}.png"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="https://c.tile.openstreetmap.fr/osmfr/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         template="https://tile.openstreetmap.fr/osmfr/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -89,20 +71,14 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
           <ResourceURL format="image/png"
-                         template="https://a.tile.opentopomap.org/{TileMatrix}/{TileCol}/{TileRow}.png"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="https://b.tile.opentopomap.org/{TileMatrix}/{TileCol}/{TileRow}.png"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="https://c.tile.opentopomap.org/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         template="https://tile.opentopomap.org/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
         </Layer>
         <TileMatrixSet>
             <ows:Identifier>google3857</ows:Identifier>
             <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.18.3:4326">
-                <ows:LowerCorner>-180 -90</ows:LowerCorner>
-                <ows:UpperCorner>180 90</ows:UpperCorner>
+                <ows:LowerCorner>-180 -85</ows:LowerCorner>
+                <ows:UpperCorner>180 85</ows:UpperCorner>
             </ows:BoundingBox>
             <ows:SupportedCRS>urn:ogc:def:crs:EPSG:6.18.3:3857</ows:SupportedCRS>
             <WellKnownScaleSet>urn:ogc:def:wkss:OGC:1.0:GoogleMapsCompatible</WellKnownScaleSet>
