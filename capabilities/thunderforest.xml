@@ -24,13 +24,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://a.tile.thunderforest.com/cycle/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="https://b.tile.thunderforest.com/cycle/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="https://c.tile.thunderforest.com/cycle/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
+                         template="https://tile.thunderforest.com/cycle/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -45,13 +39,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://a.tile.thunderforest.com/transport/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="https://b.tile.thunderforest.com/transport/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="https://c.tile.thunderforest.com/transport/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
+                         template="https://tile.thunderforest.com/transport/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -66,13 +54,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://a.tile.thunderforest.com/transport-dark/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="https://b.tile.thunderforest.com/transport-dark/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="https://c.tile.thunderforest.com/transport-dark/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
+                         template="https://tile.thunderforest.com/transport-dark/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -87,13 +69,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://a.tile.thunderforest.com/landscape/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="https://b.tile.thunderforest.com/landscape/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="https://c.tile.thunderforest.com/landscape/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
+                         template="https://tile.thunderforest.com/landscape/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -108,13 +84,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://a.tile.thunderforest.com/spinal-map/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="https://b.tile.thunderforest.com/spinal-map/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="https://c.tile.thunderforest.com/spinal-map/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
+                         template="https://tile.thunderforest.com/spinal-map/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -129,13 +99,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://a.tile.thunderforest.com/outdoors/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="https://b.tile.thunderforest.com/outdoors/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="https://c.tile.thunderforest.com/outdoors/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
+                         template="https://tile.thunderforest.com/outdoors/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -150,13 +114,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://a.tile.thunderforest.com/pioneer/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="https://b.tile.thunderforest.com/pioneer/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="https://c.tile.thunderforest.com/pioneer/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
+                         template="https://tile.thunderforest.com/pioneer/{TileMatrix}/{TileCol}/{TileRow}.png?apikey=db5ae1f5778a448ca662554581f283c5"
                          resourceType="tile"/>
         </Layer>
 |       <TileMatrixSet>
