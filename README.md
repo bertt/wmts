@@ -4,7 +4,7 @@ Collection of WMTS services.
 
 ## Maps
 
-Apple, Carto, Gaode, Google, IsHowChina, Kosmosnimki, MapBox, MapSurfer, Michelin, Nokia, Stamen, Strava, Taobao, Tencent, ThunderForest, Tianditu, TomTom, VWorld, Yandex
+Apple, Carto, Gaode, Google, IsHowChina, Kosmosnimki, MapBox, Michelin, Nokia, OpenMapTiles, OpenStreetMap, Stamen, Strava, Taobao, Tencent, ThunderForest, Tianditu, TomTom, VWorld, Yandex
 
 Note about Strava: There are several files for Strava heatmaps supporting the colors:
 
