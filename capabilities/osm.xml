@@ -30,6 +30,21 @@
                          resourceType="tile"/>
         </Layer>
         <Layer>
+            <ows:Title>Wikimedia Maps</ows:Title>
+            <ows:Abstract>Maps for the Wikimedia projects, like Wikipedia and Wikimedia Commons.</ows:Abstract>
+            <ows:Identifier>osm-wikimedia</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>osm-wikimedia</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
             <ows:Title>OpenStreetMap.DE</ows:Title>
             <ows:Abstract>OpenStreetMap.DE</ows:Abstract>
             <ows:Identifier>osm-openstreetmap.de</ows:Identifier>
