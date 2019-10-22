@@ -40,7 +40,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="http://mango.iptime.org:8995/v.1.0.0/{TileMatrix}/{TileCol}/{TileRow}.png?gray=true"
+                         template="http://mango.iptime.org:8996/v.1.0.0/{TileMatrix}/{TileCol}/{TileRow}.png?gray=true"
                          resourceType="tile"/>
         </Layer>
         <TileMatrixSet>
