@@ -14,11 +14,11 @@
     </ows:ServiceIdentification>
     <Contents>
         <Layer>
-            <ows:Title>tinditu basemap</ows:Title>
+            <ows:Title>tianditu streets</ows:Title>
             <ows:Abstract></ows:Abstract>
-            <ows:Identifier>tianditu-basemap</ows:Identifier>
+            <ows:Identifier>tianditu-streets</ows:Identifier>
             <Style isDefault="true">
-                <ows:Identifier>tianditu-basemap</ows:Identifier>
+                <ows:Identifier>tianditu-streets</ows:Identifier>
             </Style>
             <Format>image/png</Format>
             <TileMatrixSetLink>
@@ -26,6 +26,36 @@
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
                          template="http://t0.tianditu.com/DataServer?T=vec_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>tianditu satellite</ows:Title>
+            <ows:Abstract></ows:Abstract>
+            <ows:Identifier>tianditu-satellite</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>tianditu-satellite</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="http://t0.tianditu.com/DataServer?T=img_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>tianditu terrain</ows:Title>
+            <ows:Abstract></ows:Abstract>
+            <ows:Identifier>tianditu-terrain</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>tianditu-terrain</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="http://t0.tianditu.com/DataServer?T=ter_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
                          resourceType="tile"/>
         </Layer>
         <TileMatrixSet>
