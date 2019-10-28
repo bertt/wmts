@@ -27,27 +27,6 @@
             <ResourceURL format="image/png"
                          template="http://t0.tianditu.com/DataServer?T=vec_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
                          resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="http://t1.tianditu.com/DataServer?T=vec_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="http://t2.tianditu.com/DataServer?T=vec_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="http://t3.tianditu.com/DataServer?T=vec_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="http://t4.tianditu.com/DataServer?T=vec_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="http://t5.tianditu.com/DataServer?T=vec_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="http://t6.tianditu.com/DataServer?T=vec_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="http://t7.tianditu.com/DataServer?T=vec_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
-                         resourceType="tile"/>
         </Layer>
         <Layer>
             <ows:Title>tianditu streets annotation</ows:Title>
@@ -62,27 +41,6 @@
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
                          template="http://t0.tianditu.com/DataServer?T=cva_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="http://t1.tianditu.com/DataServer?T=cva_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="http://t2.tianditu.com/DataServer?T=cva_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="http://t3.tianditu.com/DataServer?T=cva_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="http://t4.tianditu.com/DataServer?T=cva_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="http://t5.tianditu.com/DataServer?T=cva_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="http://t6.tianditu.com/DataServer?T=cva_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="http://t7.tianditu.com/DataServer?T=cva_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -99,27 +57,6 @@
             <ResourceURL format="image/png"
                          template="http://t0.tianditu.com/DataServer?T=img_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
                          resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="http://t1.tianditu.com/DataServer?T=img_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="http://t2.tianditu.com/DataServer?T=img_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="http://t3.tianditu.com/DataServer?T=img_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="http://t4.tianditu.com/DataServer?T=img_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="http://t5.tianditu.com/DataServer?T=img_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="http://t6.tianditu.com/DataServer?T=img_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="http://t7.tianditu.com/DataServer?T=img_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
-                         resourceType="tile"/>
         </Layer>
         <Layer>
             <ows:Title>tianditu satellite annotation</ows:Title>
@@ -134,27 +71,6 @@
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
                          template="http://t0.tianditu.com/DataServer?T=cia_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="http://t1.tianditu.com/DataServer?T=cia_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="http://t2.tianditu.com/DataServer?T=cia_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="http://t3.tianditu.com/DataServer?T=cia_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="http://t4.tianditu.com/DataServer?T=cia_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="http://t5.tianditu.com/DataServer?T=cia_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="http://t6.tianditu.com/DataServer?T=cia_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="http://t7.tianditu.com/DataServer?T=cia_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -171,27 +87,6 @@
             <ResourceURL format="image/png"
                          template="http://t0.tianditu.com/DataServer?T=ter_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
                          resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="http://t1.tianditu.com/DataServer?T=ter_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="http://t2.tianditu.com/DataServer?T=ter_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="http://t3.tianditu.com/DataServer?T=ter_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="http://t4.tianditu.com/DataServer?T=ter_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="http://t5.tianditu.com/DataServer?T=ter_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="http://t6.tianditu.com/DataServer?T=ter_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="http://t7.tianditu.com/DataServer?T=ter_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
-                         resourceType="tile"/>
         </Layer>
         <Layer>
             <ows:Title>tianditu terrain annotation</ows:Title>
@@ -206,27 +101,6 @@
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
                          template="http://t0.tianditu.com/DataServer?T=cta_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="http://t1.tianditu.com/DataServer?T=cta_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="http://t2.tianditu.com/DataServer?T=cta_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="http://t3.tianditu.com/DataServer?T=cta_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="http://t4.tianditu.com/DataServer?T=cta_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="http://t5.tianditu.com/DataServer?T=cta_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="http://t6.tianditu.com/DataServer?T=cta_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
-                         resourceType="tile"/>
-            <ResourceURL format="image/png"
-                         template="http://t7.tianditu.com/DataServer?T=cta_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=174705aebfe31b79b3587279e211cb9a"
                          resourceType="tile"/>
         </Layer>
         <TileMatrixSet>
