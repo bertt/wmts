@@ -14,6 +14,21 @@
     </ows:ServiceIdentification>
     <Contents>
         <Layer>
+            <ows:Title>Naver - terrain</ows:Title>
+            <ows:Abstract></ows:Abstract>
+            <ows:Identifier>naver-terrain</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>naver-terrain</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://map.pstatic.net/nrb/styles/terrain/1574408195/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
             <ows:Title>Naver - streets</ows:Title>
             <ows:Abstract></ows:Abstract>
             <ows:Identifier>naver-streets</ows:Identifier>
