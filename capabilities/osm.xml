@@ -30,6 +30,21 @@
                          resourceType="tile"/>
         </Layer>
         <Layer>
+            <ows:Title>OpenSeaMap</ows:Title>
+            <ows:Abstract>OpenSeaMap</ows:Abstract>
+            <ows:Identifier>osm-openseamap</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>osm-openseamap</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="http://t1.openseamap.org/seamark/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
             <ows:Title>Wikimedia Maps</ows:Title>
             <ows:Abstract>Maps for the Wikimedia projects, like Wikipedia and Wikimedia Commons.</ows:Abstract>
             <ows:Identifier>osm-wikimedia</ows:Identifier>
