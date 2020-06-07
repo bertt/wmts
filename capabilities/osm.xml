@@ -26,7 +26,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://tile.openstreetmap.org/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         template="https://a.tile.openstreetmap.org/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -71,7 +71,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://tile.openstreetmap.de/tiles/osmde/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         template="https://tile.openstreetmap.de/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -86,7 +86,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
           <ResourceURL format="image/png"
-                         template="https://tile.openstreetmap.fr/osmfr/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         template="https://a.tile.openstreetmap.fr/osmfr/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
         </Layer>
         <Layer>
