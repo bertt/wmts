@@ -45,6 +45,21 @@
                          resourceType="tile"/>
         </Layer>
         <Layer>
+            <ows:Title>mtbmap</ows:Title>
+            <ows:Abstract>mtbmap</ows:Abstract>
+            <ows:Identifier>osm-mtbmap</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>osm-mtbmap</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="http://tile.mtbmap.cz/mtbmap_tiles/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
             <ows:Title>Wikimedia Maps</ows:Title>
             <ows:Abstract>Maps for the Wikimedia projects, like Wikipedia and Wikimedia Commons.</ows:Abstract>
             <ows:Identifier>osm-wikimedia</ows:Identifier>
