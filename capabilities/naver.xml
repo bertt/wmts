@@ -25,7 +25,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://map.pstatic.net/nrb/styles/terrain/1574408195/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         template="https://map.pstatic.net/nrb/styles/terrain/1600849878/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -40,7 +40,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://map.pstatic.net/nrb/styles/basic/1574408195/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         template="https://map.pstatic.net/nrb/styles/basic/1600849878/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -55,7 +55,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://map.pstatic.net/nrb/styles/satellite/1574408195/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         template="https://map.pstatic.net/nrb/styles/satellite/1600849878/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
         </Layer>
 
