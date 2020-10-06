@@ -24,7 +24,7 @@
             <TileMatrixSetLink>
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
-            <ResourceURL format="image/jpg"
+            <ResourceURL format="image/png"
                          template="http://tile.stamen.com/terrain-background/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
         </Layer>
@@ -39,7 +39,7 @@
             <TileMatrixSetLink>
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
-            <ResourceURL format="image/jpg"
+            <ResourceURL format="image/png"
                          template="http://tile.stamen.com/toner/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
         </Layer>
