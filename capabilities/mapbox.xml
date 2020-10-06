@@ -25,7 +25,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://a.tiles.mapbox.com/v4/mapbox.comic/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1IjoiYmVydHQiLCJhIjoiaWFvN1Z4USJ9.k04Q6CVms4Gx7KDZxvAx2A"
+                         template="https://api.tiles.mapbox.com/v4/mapbox.comic/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -40,7 +40,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://a.tiles.mapbox.com/v4/mapbox.wheatpaste/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1IjoiYmVydHQiLCJhIjoiaWFvN1Z4USJ9.k04Q6CVms4Gx7KDZxvAx2A"
+                         template="https://api.tiles.mapbox.com/v4/mapbox.wheatpaste/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -55,7 +55,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://a.tiles.mapbox.com/v4/strava.blprdx6r/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1IjoiYmVydHQiLCJhIjoiaWFvN1Z4USJ9.k04Q6CVms4Gx7KDZxvAx2A"
+                         template="https://api.tiles.mapbox.com/v4/strava.blprdx6r/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -70,7 +70,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://a.tiles.mapbox.com/v3/heyitsgarrett.kf2a2nb1/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1IjoiYmVydHQiLCJhIjoiaWFvN1Z4USJ9.k04Q6CVms4Gx7KDZxvAx2A"
+                         template="https://api.tiles.mapbox.com/v3/heyitsgarrett.kf2a2nb1/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -85,7 +85,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://a.tiles.mapbox.com/v4/mapbox.streets-basic/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1IjoiYmVydHQiLCJhIjoiaWFvN1Z4USJ9.k04Q6CVms4Gx7KDZxvAx2A"
+                         template="https://api.tiles.mapbox.com/v4/mapbox.streets-basic/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw"
                          resourceType="tile"/>
         </Layer>
       
@@ -101,7 +101,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://a.tiles.mapbox.com/v4/mapbox.streets/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1IjoiYmVydHQiLCJhIjoiaWFvN1Z4USJ9.k04Q6CVms4Gx7KDZxvAx2A"
+                         template="https://api.tiles.mapbox.com/v4/mapbox.streets/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -131,7 +131,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://a.tiles.mapbox.com/v4/mapbox.run-bike-hike/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1IjoiYmVydHQiLCJhIjoiaWFvN1Z4USJ9.k04Q6CVms4Gx7KDZxvAx2A"
+                         template="https://api.tiles.mapbox.com/v4/mapbox.run-bike-hike/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -146,7 +146,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://a.tiles.mapbox.com/v4/mapbox.pirates/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1IjoiYmVydHQiLCJhIjoiaWFvN1Z4USJ9.k04Q6CVms4Gx7KDZxvAx2A"
+                         template="https://api.tiles.mapbox.com/v4/mapbox.pirates/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -161,7 +161,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://a.tiles.mapbox.com/v4/mapbox.pencil/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1IjoiYmVydHQiLCJhIjoiaWFvN1Z4USJ9.k04Q6CVms4Gx7KDZxvAx2A"
+                         template="https://api.tiles.mapbox.com/v4/mapbox.pencil/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -176,7 +176,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://a.tiles.mapbox.com/v4/mapbox.outdoors/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1IjoiYmVydHQiLCJhIjoiaWFvN1Z4USJ9.k04Q6CVms4Gx7KDZxvAx2A"
+                         template="https://api.tiles.mapbox.com/v4/mapbox.outdoors/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -191,7 +191,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://a.tiles.mapbox.com/v4/mapbox.light/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1IjoiYmVydHQiLCJhIjoiaWFvN1Z4USJ9.k04Q6CVms4Gx7KDZxvAx2A"
+                         template="https://api.tiles.mapbox.com/v4/mapbox.light/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -206,7 +206,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://a.tiles.mapbox.com/v4/mapbox.high-contrast/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1IjoiYmVydHQiLCJhIjoiaWFvN1Z4USJ9.k04Q6CVms4Gx7KDZxvAx2A"
+                         template="https://api.tiles.mapbox.com/v4/mapbox.high-contrast/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -221,7 +221,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://a.tiles.mapbox.com/v4/mapbox.emerald/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1IjoiYmVydHQiLCJhIjoiaWFvN1Z4USJ9.k04Q6CVms4Gx7KDZxvAx2A"
+                         template="https://api.tiles.mapbox.com/v4/mapbox.emerald/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -236,7 +236,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://a.tiles.mapbox.com/v4/mapbox.dark/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1IjoiYmVydHQiLCJhIjoiaWFvN1Z4USJ9.k04Q6CVms4Gx7KDZxvAx2A"
+                         template="https://api.tiles.mapbox.com/v4/mapbox.dark/{TileMatrix}/{TileCol}/{TileRow}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw"
                          resourceType="tile"/>
         </Layer>
         <TileMatrixSet>
