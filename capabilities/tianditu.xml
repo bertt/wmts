@@ -25,7 +25,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="http://t0.tianditu.gov.cn/DataServer?T=vec_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=a4ee5c551598a1889adfabff55a5fc27"
+                         template="http://t0.tianditu.com/DataServer?T=vec_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=7786923a385369346d56b966bb6ad62f"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -40,7 +40,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="http://t0.tianditu.gov.cn/DataServer?T=cva_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=a4ee5c551598a1889adfabff55a5fc27"
+                         template="http://t0.tianditu.com/DataServer?T=cva_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=7786923a385369346d56b966bb6ad62f"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -55,7 +55,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="http://t0.tianditu.gov.cn/DataServer?T=img_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=a4ee5c551598a1889adfabff55a5fc27"
+                         template="http://t0.tianditu.com/DataServer?T=img_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=7786923a385369346d56b966bb6ad62f"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -70,7 +70,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="http://t0.tianditu.gov.cn/DataServer?T=cia_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=a4ee5c551598a1889adfabff55a5fc27"
+                         template="http://t0.tianditu.com/DataServer?T=cia_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=7786923a385369346d56b966bb6ad62f"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -85,7 +85,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="http://t0.tianditu.gov.cn/DataServer?T=ter_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=a4ee5c551598a1889adfabff55a5fc27"
+                         template="http://t0.tianditu.com/DataServer?T=ter_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=7786923a385369346d56b966bb6ad62f"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -100,7 +100,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="http://t0.tianditu.gov.cn/DataServer?T=cta_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=a4ee5c551598a1889adfabff55a5fc27"
+                         template="http://t0.tianditu.com/DataServer?T=cta_w&amp;X={TileCol}&amp;Y={TileRow}&amp;L={TileMatrix}&amp;tk=7786923a385369346d56b966bb6ad62f"
                          resourceType="tile"/>
         </Layer>
         <TileMatrixSet>
