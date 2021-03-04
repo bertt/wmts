@@ -30,6 +30,21 @@
                          resourceType="tile"/>
         </Layer>
         <Layer>
+            <ows:Title>OpenCycleMap</ows:Title>
+            <ows:Abstract>OpenCycleMap</ows:Abstract>
+            <ows:Identifier>osm-opencyclemap</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>osm-opencyclemap</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="http://tile.opencyclemap.org/cycle/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+        </Layer>
+      <Layer>
             <ows:Title>OpenSeaMap</ows:Title>
             <ows:Abstract>OpenSeaMap</ows:Abstract>
             <ows:Identifier>osm-openseamap</ows:Identifier>
