@@ -29,7 +29,22 @@
                          template="https://a.tile.openstreetmap.org/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
         </Layer>
-        <Layer>
+      <Layer>
+            <ows:Title>OpenStreetMap GPS Traces</ows:Title>
+            <ows:Abstract>OpenStreetMap GPS Traces</ows:Abstract>
+            <ows:Identifier>osm-gpstraces</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>osm-gpstraces</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="http://gps-tile.openstreetmap.org/lines/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+        </Layer>
+      <Layer>
             <ows:Title>OpenCycleMap</ows:Title>
             <ows:Abstract>OpenCycleMap</ows:Abstract>
             <ows:Identifier>osm-opencyclemap</ows:Identifier>
