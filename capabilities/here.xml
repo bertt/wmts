@@ -53,11 +53,11 @@
                          resourceType="tile"/>
         </Layer>
         <Layer>
-            <ows:Title>Nokia - Terrain</ows:Title>
+            <ows:Title>Here - Terrain</ows:Title>
             <ows:Abstract></ows:Abstract>
-            <ows:Identifier>nokia-terrain</ows:Identifier>
+            <ows:Identifier>here-terrain</ows:Identifier>
             <Style isDefault="true">
-                <ows:Identifier>nokia</ows:Identifier>
+                <ows:Identifier>here</ows:Identifier>
             </Style>
             <Format>image/png</Format>
             <TileMatrixSetLink>
