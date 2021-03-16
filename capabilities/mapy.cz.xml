@@ -4,7 +4,7 @@
               xsi:schemaLocation="http://www.opengis.net/wmts/1.0 http://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd"
               version="1.0.0">
     <ows:ServiceIdentification>
-        <ows:Title>Windy</ows:Title>
+        <ows:Title>Mapy.cz</ows:Title>
         <ows:Abstract>
         </ows:Abstract>
         <ows:ServiceType>OGC WMTS</ows:ServiceType>
@@ -25,7 +25,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template=" https://mapserver.mapy.cz/base-m/{TileMatrix}-{TileCol}-{TileRow}"
+                         template="https://mapserver.mapy.cz/base-m/{TileMatrix}-{TileCol}-{TileRow}"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -40,7 +40,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template=" https://mapserver.mapy.cz/outdoor-m/{TileMatrix}-{TileCol}-{TileRow}"
+                         template="https://mapserver.mapy.cz/outdoor-m/{TileMatrix}-{TileCol}-{TileRow}"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -55,7 +55,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template=" https://mapserver.mapy.cz/bing/{TileMatrix}-{TileCol}-{TileRow}"
+                         template="https://mapserver.mapy.cz/bing/{TileMatrix}-{TileCol}-{TileRow}"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -70,7 +70,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template=" https://mapserver.mapy.cz/winter-m-down/{TileMatrix}-{TileCol}-{TileRow}"
+                         template="https://mapserver.mapy.cz/winter-m-down/{TileMatrix}-{TileCol}-{TileRow}"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -85,7 +85,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template=" https://mapserver.mapy.cz/haptic-m/{TileMatrix}-{TileCol}-{TileRow}"
+                         template="https://mapserver.mapy.cz/haptic-m/{TileMatrix}-{TileCol}-{TileRow}"
                          resourceType="tile"/>
         </Layer>
       
