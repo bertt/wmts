@@ -16,9 +16,9 @@
         <Layer>
             <ows:Title>Basic</ows:Title>
             <ows:Abstract></ows:Abstract>
-            <ows:Identifier>mapy-basic</ows:Identifier>
+            <ows:Identifier>mapy.cz-basic</ows:Identifier>
             <Style isDefault="true">
-                <ows:Identifier>mapy-basic</ows:Identifier>
+                <ows:Identifier>mapy.cz-basic</ows:Identifier>
             </Style>
             <Format>image/png</Format>
             <TileMatrixSetLink>
@@ -31,9 +31,9 @@
         <Layer>
             <ows:Title>Outdoor</ows:Title>
             <ows:Abstract></ows:Abstract>
-            <ows:Identifier>mapy-outdoor</ows:Identifier>
+            <ows:Identifier>mapy.cz-outdoor</ows:Identifier>
             <Style isDefault="true">
-                <ows:Identifier>mapy-outdoor</ows:Identifier>
+                <ows:Identifier>mapy.cz-outdoor</ows:Identifier>
             </Style>
             <Format>image/png</Format>
             <TileMatrixSetLink>
@@ -46,9 +46,9 @@
         <Layer>
             <ows:Title>Aerial</ows:Title>
             <ows:Abstract></ows:Abstract>
-            <ows:Identifier>mapy-aerial</ows:Identifier>
+            <ows:Identifier>mapy.cz-aerial</ows:Identifier>
             <Style isDefault="true">
-                <ows:Identifier>mapy-aerial</ows:Identifier>
+                <ows:Identifier>mapy.cz-aerial</ows:Identifier>
             </Style>
             <Format>image/png</Format>
             <TileMatrixSetLink>
@@ -61,9 +61,9 @@
         <Layer>
             <ows:Title>Winter</ows:Title>
             <ows:Abstract></ows:Abstract>
-            <ows:Identifier>mapy-winter</ows:Identifier>
+            <ows:Identifier>mapy.cz-winter</ows:Identifier>
             <Style isDefault="true">
-                <ows:Identifier>mapy-winter</ows:Identifier>
+                <ows:Identifier>mapy.cz-winter</ows:Identifier>
             </Style>
             <Format>image/png</Format>
             <TileMatrixSetLink>
@@ -76,9 +76,9 @@
         <Layer>
             <ows:Title>Haptic</ows:Title>
             <ows:Abstract></ows:Abstract>
-            <ows:Identifier>mapy-haptic</ows:Identifier>
+            <ows:Identifier>mapy.cz-haptic</ows:Identifier>
             <Style isDefault="true">
-                <ows:Identifier>mapy-haptic</ows:Identifier>
+                <ows:Identifier>mapy.cz-haptic</ows:Identifier>
             </Style>
             <Format>image/png</Format>
             <TileMatrixSetLink>
