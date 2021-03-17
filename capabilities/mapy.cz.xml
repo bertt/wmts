@@ -70,7 +70,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/jpg"
-                         template="https://mapserver.mapy.cz/1618-m/{TileMatrix}-{TileCol}-{TileRow}"
+                         template="https://mapserver.mapy.cz/ophoto1618-m/{TileMatrix}-{TileCol}-{TileRow}"
                          resourceType="tile"/>
         </Layer>
         <Layer>
