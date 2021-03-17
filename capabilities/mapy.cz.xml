@@ -85,7 +85,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/jpg"
-                         template="https://mapserver.mapy.cz/1415-m/{TileMatrix}-{TileCol}-{TileRow}"
+                         template="https://mapserver.mapy.cz/ophoto1415-m/{TileMatrix}-{TileCol}-{TileRow}"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -100,7 +100,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/jpg"
-                         template="https://mapserver.mapy.cz/1012-m/{TileMatrix}-{TileCol}-{TileRow}"
+                         template="https://mapserver.mapy.cz/ophoto1012-m/{TileMatrix}-{TileCol}-{TileRow}"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -115,7 +115,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/jpg"
-                         template="https://mapserver.mapy.cz/0406-m/{TileMatrix}-{TileCol}-{TileRow}"
+                         template="https://mapserver.mapy.cz/ophoto0406-m/{TileMatrix}-{TileCol}-{TileRow}"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -130,7 +130,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/jpg"
-                         template="https://mapserver.mapy.cz/0203-m/{TileMatrix}-{TileCol}-{TileRow}"
+                         template="https://mapserver.mapy.cz/ophoto0203-m/{TileMatrix}-{TileCol}-{TileRow}"
                          resourceType="tile"/>
         </Layer>
         <Layer>
