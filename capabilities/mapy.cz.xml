@@ -50,11 +50,11 @@
             <Style isDefault="true">
                 <ows:Identifier>mapy.cz-aerial</ows:Identifier>
             </Style>
-            <Format>image/png</Format>
+            <Format>image/jpg</Format>
             <TileMatrixSetLink>
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
-            <ResourceURL format="image/png"
+            <ResourceURL format="image/jpg"
                          template="https://mapserver.mapy.cz/bing/{TileMatrix}-{TileCol}-{TileRow}"
                          resourceType="tile"/>
         </Layer>
