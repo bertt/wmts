@@ -1,6 +1,6 @@
 # bertt/wmts
 
-Collection of WMTS services. 
+Collection of WMTS services.
 
 ## Maps
 
