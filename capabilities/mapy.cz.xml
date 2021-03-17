@@ -59,6 +59,81 @@
                          resourceType="tile"/>
         </Layer>
         <Layer>
+            <ows:Title>Aerial-2018</ows:Title>
+            <ows:Abstract></ows:Abstract>
+            <ows:Identifier>mapy.cz-aerial-2018</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>mapy.cz-aerial-2018</ows:Identifier>
+            </Style>
+            <Format>image/jpg</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/jpg"
+                         template="https://mapserver.mapy.cz/1618-m/{TileMatrix}-{TileCol}-{TileRow}"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>Aerial-2015</ows:Title>
+            <ows:Abstract></ows:Abstract>
+            <ows:Identifier>mapy.cz-aerial-2015</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>mapy.cz-aerial-2015</ows:Identifier>
+            </Style>
+            <Format>image/jpg</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/jpg"
+                         template="https://mapserver.mapy.cz/1415-m/{TileMatrix}-{TileCol}-{TileRow}"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>Aerial-2012</ows:Title>
+            <ows:Abstract></ows:Abstract>
+            <ows:Identifier>mapy.cz-aerial-2012</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>mapy.cz-aerial-2012</ows:Identifier>
+            </Style>
+            <Format>image/jpg</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/jpg"
+                         template="https://mapserver.mapy.cz/1012-m/{TileMatrix}-{TileCol}-{TileRow}"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>Aerial-2006</ows:Title>
+            <ows:Abstract></ows:Abstract>
+            <ows:Identifier>mapy.cz-aerial-2006</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>mapy.cz-aerial-2006</ows:Identifier>
+            </Style>
+            <Format>image/jpg</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/jpg"
+                         template="https://mapserver.mapy.cz/0406-m/{TileMatrix}-{TileCol}-{TileRow}"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>Aerial-2003</ows:Title>
+            <ows:Abstract></ows:Abstract>
+            <ows:Identifier>mapy.cz-aerial-2003</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>mapy.cz-aerial-2003</ows:Identifier>
+            </Style>
+            <Format>image/jpg</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/jpg"
+                         template="https://mapserver.mapy.cz/0203-m/{TileMatrix}-{TileCol}-{TileRow}"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
             <ows:Title>Winter</ows:Title>
             <ows:Abstract></ows:Abstract>
             <ows:Identifier>mapy.cz-winter</ows:Identifier>
