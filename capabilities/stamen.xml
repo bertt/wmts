@@ -25,7 +25,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="http://tile.stamen.com/terrain-background/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         template="https://stamen-tiles-a.a.ssl.fastly.net/terrain/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -40,7 +40,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="http://tile.stamen.com/toner/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         template="https://stamen-tiles-a.a.ssl.fastly.net/toner/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -55,7 +55,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/jpg"
-                         template="http://tile.stamen.com/watercolor/{TileMatrix}/{TileCol}/{TileRow}.jpg"
+                         template="https://stamen-tiles-a.a.ssl.fastly.net/watercolor/{TileMatrix}/{TileCol}/{TileRow}.jpg"
                          resourceType="tile"/>
         </Layer>
 
