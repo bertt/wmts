@@ -24,7 +24,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://tile.ridewithgps.com/rwgps/{z}/{x}/{y}.png"
+                         template="https://tile.ridewithgps.com/rwgps/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -39,7 +39,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://heatmap.ridewithgps.com/normalized/{z}/{x}/{y}.png"
+                         template="https://heatmap.ridewithgps.com/normalized/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
         </Layer>
 |       <TileMatrixSet>
