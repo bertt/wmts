@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Capabilities xmlns="http://www.opengis.net/wmts/1.0" xmlns:ows="http://www.opengis.net/ows/1.1"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://www.opengis.net/wmts/1.0 http://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd"
+              version="1.0.0">
+    <ows:ServiceIdentification>
+        <ows:Title>RideWithGPS</ows:Title>
+        <ows:Abstract></ows:Abstract>
+        <ows:ServiceType>OGC WMTS</ows:ServiceType>
+        <ows:ServiceTypeVersion>1.0.0</ows:ServiceTypeVersion>
+        <ows:Fees>none</ows:Fees>
+        <ows:AccessConstraints></ows:AccessConstraints>
+    </ows:ServiceIdentification>
+    <Contents>
+        <Layer>
+            <ows:Title>ridewithgps-basemap</ows:Title>
+            <ows:Abstract>ridewithgps-basemap</ows:Abstract>
+            <ows:Identifier>ridewithgps-basemap</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>ridewithgps-basemap</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://tile.ridewithgps.com/rwgps/{z}/{x}/{y}.png"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>ridewithgps-heatmap</ows:Title>
+            <ows:Abstract>ridewithgps-heatmap</ows:Abstract>
+            <ows:Identifier>ridewithgps-heatmap</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>ridewithgps-heatmap</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://heatmap.ridewithgps.com/normalized/{z}/{x}/{y}.png"
+                         resourceType="tile"/>
+        </Layer>
+
+        </TileMatrixSet>
+    </Contents>
+</Capabilities>
