@@ -58,6 +58,22 @@
                          template="https://stamen-tiles-a.a.ssl.fastly.net/watercolor/{TileMatrix}/{TileCol}/{TileRow}.jpg"
                          resourceType="tile"/>
         </Layer>
+        <Layer>
+            <ows:Title>Stamen - Boner</ows:Title>
+            <ows:Abstract></ows:Abstract>
+            <ows:Identifier>stamen-boner</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>stamen</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/jpg"
+                         template="https://stamen-tiles-a.a.ssl.fastly.net/boner/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+        </Layer>
+      
 
         <TileMatrixSet>
             <ows:Identifier>google3857</ows:Identifier>
