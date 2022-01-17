@@ -55,7 +55,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/jpg"
-                         template="https://mapserver.mapy.cz/bing/{TileMatrix}-{TileCol}-{TileRow}?sdk=HgUbCgUbGkgqAQkYBxYEHQNHQlJfQVBeR1JfSw%3D%3D"
+                         template="https://mapserver.mapy.cz/bing/{TileMatrix}-{TileCol}-{TileRow}?sdk=HgUbCgUbGkgqAQkYBxYEHQNHQlJfQVBeR1FdQA=="
                          resourceType="tile"/>
         </Layer>
         <Layer>
