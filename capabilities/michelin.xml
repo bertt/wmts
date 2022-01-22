@@ -25,7 +25,22 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://map6.viamichelin.com/map/mapdirect?map=viamichelin&amp;z={TileMatrix}&amp;x={TileCol}&amp;y={TileRow}&amp;format=png&amp;version=201707071445&amp;layer=background&amp;locale=default&amp;protocol=https"
+                         template="https://map.viamichelin.com/map/mapdirect?map=viamichelin&amp;z={TileMatrix}&amp;x={TileCol}&amp;y={TileRow}&amp;format=png&amp;version=201707071445&amp;layer=background&amp;locale=default&amp;protocol=https"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>Michelin - light</ows:Title>
+            <ows:Abstract></ows:Abstract>
+            <ows:Identifier>michelin-light</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>micheling-light</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://map.viamichelin.com/map/mapdirect?map=light&amp;z={TileMatrix}&amp;x={TileCol}&amp;y={TileRow}&amp;format=png&amp;version=201707071445&amp;layer=background&amp;locale=default&amp;protocol=https"
                          resourceType="tile"/>
         </Layer>
         <TileMatrixSet>
