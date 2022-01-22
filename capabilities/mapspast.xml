@@ -28,6 +28,21 @@
                          template="https://s3.ap-southeast-2.amazonaws.com/au.mapspast.org.nz/3857/nzms15-1949/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
         </Layer>
+        <Layer>
+            <ows:Title>nzms13-1939</ows:Title>
+            <ows:Abstract>nzms13-1939</ows:Abstract>
+            <ows:Identifier>mapspast-13_1939</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>mapspast-13_1939</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://s3.ap-southeast-2.amazonaws.com/au.mapspast.org.nz/3857/nzms13-1939/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+        </Layer>
         <TileMatrixSet>
             <ows:Identifier>google3857</ows:Identifier>
             <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.18.3:4326">
