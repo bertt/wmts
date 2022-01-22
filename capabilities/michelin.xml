@@ -43,21 +43,6 @@
                          template="https://map.viamichelin.com/map/mapdirect?map=light&amp;z={TileMatrix}&amp;x={TileCol}&amp;y={TileRow}&amp;format=png&amp;version=202008281001&amp;layer=background&amp;locale=default&amp;protocol=https"
                          resourceType="tile"/>
         </Layer>
-        <Layer>
-            <ows:Title>Michelin - hybrid</ows:Title>
-            <ows:Abstract></ows:Abstract>
-            <ows:Identifier>michelin-hybrid</ows:Identifier>
-            <Style isDefault="true">
-                <ows:Identifier>micheling-hybrid</ows:Identifier>
-            </Style>
-            <Format>image/png</Format>
-            <TileMatrixSetLink>
-                <TileMatrixSet>google3857</TileMatrixSet>
-            </TileMatrixSetLink>
-            <ResourceURL format="image/png"
-                         template="https://map.viamichelin.com/map/mapdirect?map=hybrid&amp;z={TileMatrix}&amp;x={TileCol}&amp;y={TileRow}&amp;format=png&amp;version=202008281001&amp;layer=background&amp;locale=default&amp;protocol=https"
-                         resourceType="tile"/>
-        </Layer>
         <TileMatrixSet>
             <ows:Identifier>google3857</ows:Identifier>
             <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.18.3:4326">
