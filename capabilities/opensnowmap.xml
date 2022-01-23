@@ -16,7 +16,7 @@
         <Layer>
             <ows:Title>base_snow_map</ows:Title>
             <ows:Abstract></ows:Abstract>
-            <ows:Identifier>base_snow_map</ows:Identifier>
+            <ows:Identifier>opensnowmap-base_snow_map</ows:Identifier>
             <Style isDefault="true">
                 <ows:Identifier>base_snow_map</ows:Identifier>
             </Style>
@@ -31,7 +31,7 @@
         <Layer>
             <ows:Title>pistes</ows:Title>
             <ows:Abstract></ows:Abstract>
-            <ows:Identifier>pistes</ows:Identifier>
+            <ows:Identifier>opensnowmap-pistes</ows:Identifier>
             <Style isDefault="true">
                 <ows:Identifier>pistes</ows:Identifier>
             </Style>
