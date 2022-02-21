@@ -14,6 +14,96 @@
     </ows:ServiceIdentification>
     <Contents>
         <Layer>
+            <ows:Title>topo50-2009</ows:Title>
+            <ows:Abstract>topo50-2009</ows:Abstract>
+            <ows:Identifier>mapspast-topo50_2009</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>mapspast-topo50_2009</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://s3.ap-southeast-2.amazonaws.com/au.mapspast.org.nz/3857/topo50-2009/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>nzms260-1999</ows:Title>
+            <ows:Abstract>nzms260-1999</ows:Abstract>
+            <ows:Identifier>mapspast-260_1999</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>mapspast-260_1999</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://s3.ap-southeast-2.amazonaws.com/au.mapspast.org.nz/3857/nzms260-1999/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>nzms260-1989</ows:Title>
+            <ows:Abstract>nzms260-1989</ows:Abstract>
+            <ows:Identifier>mapspast-260_1989</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>mapspast-260_1989</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://s3.ap-southeast-2.amazonaws.com/au.mapspast.org.nz/3857/nzms260-1989/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>nzms1-1979</ows:Title>
+            <ows:Abstract>nzms1-1979</ows:Abstract>
+            <ows:Identifier>mapspast-1_1979</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>mapspast-1_1979</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://s3.ap-southeast-2.amazonaws.com/au.mapspast.org.nz/3857/nzms1-1979/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>nzms1-1969</ows:Title>
+            <ows:Abstract>nzms1-1969</ows:Abstract>
+            <ows:Identifier>mapspast-1_1969</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>mapspast-1_1969</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://s3.ap-southeast-2.amazonaws.com/au.mapspast.org.nz/3857/nzms1-1969/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>nzms1-1959</ows:Title>
+            <ows:Abstract>nzms1-1959</ows:Abstract>
+            <ows:Identifier>mapspast-1_1959</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>mapspast-1_1959</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://s3.ap-southeast-2.amazonaws.com/au.mapspast.org.nz/3857/nzms1-1959/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
             <ows:Title>nzms15-1949</ows:Title>
             <ows:Abstract>nzms15-1949</ows:Abstract>
             <ows:Identifier>mapspast-15_1949</ows:Identifier>
@@ -34,6 +124,66 @@
             <ows:Identifier>mapspast-13_1939</ows:Identifier>
             <Style isDefault="true">
                 <ows:Identifier>mapspast-13_1939</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://s3.ap-southeast-2.amazonaws.com/au.mapspast.org.nz/3857/nzms13-1939/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>nzms13-1929</ows:Title>
+            <ows:Abstract>nzms13-1929</ows:Abstract>
+            <ows:Identifier>mapspast-13_1929</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>mapspast-13_1929</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://s3.ap-southeast-2.amazonaws.com/au.mapspast.org.nz/3857/nzms13-1929/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>nzms13-1919</ows:Title>
+            <ows:Abstract>nzms13-1919</ows:Abstract>
+            <ows:Identifier>mapspast-13_1919</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>mapspast-13_1919</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://s3.ap-southeast-2.amazonaws.com/au.mapspast.org.nz/3857/nzms13-1919/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>nzms13-1909</ows:Title>
+            <ows:Abstract>nzms13-1909</ows:Abstract>
+            <ows:Identifier>mapspast-13_1909</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>mapspast-13_1909</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://s3.ap-southeast-2.amazonaws.com/au.mapspast.org.nz/3857/nzms13-1909/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>nzms13-1899</ows:Title>
+            <ows:Abstract>nzms13-1899</ows:Abstract>
+            <ows:Identifier>mapspast-13_1899</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>mapspast-13_1899</ows:Identifier>
             </Style>
             <Format>image/png</Format>
             <TileMatrixSetLink>
