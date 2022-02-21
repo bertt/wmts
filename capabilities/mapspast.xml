@@ -14,11 +14,11 @@
     </ows:ServiceIdentification>
     <Contents>
         <Layer>
-            <ows:Title>topo50-2009</ows:Title>
-            <ows:Abstract>topo50-2009</ows:Abstract>
-            <ows:Identifier>mapspast-topo50_2009</ows:Identifier>
+            <ows:Title>mapspast-topo50-2009</ows:Title>
+            <ows:Abstract>mapspast-topo50-2009</ows:Abstract>
+            <ows:Identifier>mapspast-topo50-2009</ows:Identifier>
             <Style isDefault="true">
-                <ows:Identifier>mapspast-topo50_2009</ows:Identifier>
+                <ows:Identifier>mapspast-topo50-2009</ows:Identifier>
             </Style>
             <Format>image/png</Format>
             <TileMatrixSetLink>
@@ -29,11 +29,11 @@
                          resourceType="tile"/>
         </Layer>
         <Layer>
-            <ows:Title>nzms260-1999</ows:Title>
-            <ows:Abstract>nzms260-1999</ows:Abstract>
-            <ows:Identifier>mapspast-260_1999</ows:Identifier>
+            <ows:Title>mapspast-nzms260-1999</ows:Title>
+            <ows:Abstract>mapspast-nzms260-1999</ows:Abstract>
+            <ows:Identifier>mapspast-nzms260-1999</ows:Identifier>
             <Style isDefault="true">
-                <ows:Identifier>mapspast-260_1999</ows:Identifier>
+                <ows:Identifier>mapspast-nzms260-1999</ows:Identifier>
             </Style>
             <Format>image/png</Format>
             <TileMatrixSetLink>
@@ -44,11 +44,11 @@
                          resourceType="tile"/>
         </Layer>
         <Layer>
-            <ows:Title>nzms260-1989</ows:Title>
-            <ows:Abstract>nzms260-1989</ows:Abstract>
-            <ows:Identifier>mapspast-260_1989</ows:Identifier>
+            <ows:Title>mapspast-nzms260-1989</ows:Title>
+            <ows:Abstract>mapspast-nzms260-1989</ows:Abstract>
+            <ows:Identifier>mapspast-nzms260-1989</ows:Identifier>
             <Style isDefault="true">
-                <ows:Identifier>mapspast-260_1989</ows:Identifier>
+                <ows:Identifier>mapspast-nzms260-1989</ows:Identifier>
             </Style>
             <Format>image/png</Format>
             <TileMatrixSetLink>
@@ -59,11 +59,11 @@
                          resourceType="tile"/>
         </Layer>
         <Layer>
-            <ows:Title>nzms1-1979</ows:Title>
-            <ows:Abstract>nzms1-1979</ows:Abstract>
-            <ows:Identifier>mapspast-1_1979</ows:Identifier>
+            <ows:Title>mapspast-nzms1-1979</ows:Title>
+            <ows:Abstract>mapspast-nzms1-1979</ows:Abstract>
+            <ows:Identifier>mapspast-nzms1-1979</ows:Identifier>
             <Style isDefault="true">
-                <ows:Identifier>mapspast-1_1979</ows:Identifier>
+                <ows:Identifier>mapspast-nzms1-1979</ows:Identifier>
             </Style>
             <Format>image/png</Format>
             <TileMatrixSetLink>
@@ -74,11 +74,11 @@
                          resourceType="tile"/>
         </Layer>
         <Layer>
-            <ows:Title>nzms1-1969</ows:Title>
-            <ows:Abstract>nzms1-1969</ows:Abstract>
-            <ows:Identifier>mapspast-1_1969</ows:Identifier>
+            <ows:Title>mapspast-nzms1-1969</ows:Title>
+            <ows:Abstract>mapspast-nzms1-1969</ows:Abstract>
+            <ows:Identifier>mapspast-nzms1-1969</ows:Identifier>
             <Style isDefault="true">
-                <ows:Identifier>mapspast-1_1969</ows:Identifier>
+                <ows:Identifier>mapspast-nzms1-1969</ows:Identifier>
             </Style>
             <Format>image/png</Format>
             <TileMatrixSetLink>
@@ -89,11 +89,11 @@
                          resourceType="tile"/>
         </Layer>
         <Layer>
-            <ows:Title>nzms1-1959</ows:Title>
-            <ows:Abstract>nzms1-1959</ows:Abstract>
-            <ows:Identifier>mapspast-1_1959</ows:Identifier>
+            <ows:Title>mapspast-nzms1-1959</ows:Title>
+            <ows:Abstract>mapspast-nzms1-1959</ows:Abstract>
+            <ows:Identifier>mapspast-nzms1-1959</ows:Identifier>
             <Style isDefault="true">
-                <ows:Identifier>mapspast-1_1959</ows:Identifier>
+                <ows:Identifier>mapspast-nzms1-1959</ows:Identifier>
             </Style>
             <Format>image/png</Format>
             <TileMatrixSetLink>
@@ -104,11 +104,11 @@
                          resourceType="tile"/>
         </Layer>
         <Layer>
-            <ows:Title>nzms15-1949</ows:Title>
-            <ows:Abstract>nzms15-1949</ows:Abstract>
-            <ows:Identifier>mapspast-15_1949</ows:Identifier>
+            <ows:Title>mapspast-nzms15-1949</ows:Title>
+            <ows:Abstract>mapspast-nzms15-1949</ows:Abstract>
+            <ows:Identifier>mapspast-nzms15-1949</ows:Identifier>
             <Style isDefault="true">
-                <ows:Identifier>mapspast-15_1949</ows:Identifier>
+                <ows:Identifier>mapspast-nzms15-1949</ows:Identifier>
             </Style>
             <Format>image/png</Format>
             <TileMatrixSetLink>
@@ -119,11 +119,11 @@
                          resourceType="tile"/>
         </Layer>
         <Layer>
-            <ows:Title>nzms13-1939</ows:Title>
-            <ows:Abstract>nzms13-1939</ows:Abstract>
-            <ows:Identifier>mapspast-13_1939</ows:Identifier>
+            <ows:Title>mapspast-nzms13-1939</ows:Title>
+            <ows:Abstract>mapspast-nzms13-1939</ows:Abstract>
+            <ows:Identifier>mapspast-nzms13-1939</ows:Identifier>
             <Style isDefault="true">
-                <ows:Identifier>mapspast-13_1939</ows:Identifier>
+                <ows:Identifier>mapspast-nzms13-1939</ows:Identifier>
             </Style>
             <Format>image/png</Format>
             <TileMatrixSetLink>
@@ -134,11 +134,11 @@
                          resourceType="tile"/>
         </Layer>
         <Layer>
-            <ows:Title>nzms13-1929</ows:Title>
-            <ows:Abstract>nzms13-1929</ows:Abstract>
-            <ows:Identifier>mapspast-13_1929</ows:Identifier>
+            <ows:Title>mapspast-nzms13-1929</ows:Title>
+            <ows:Abstract>mapspast-nzms13-1929</ows:Abstract>
+            <ows:Identifier>mapspast-nzms13-1929</ows:Identifier>
             <Style isDefault="true">
-                <ows:Identifier>mapspast-13_1929</ows:Identifier>
+                <ows:Identifier>mapspast-nzms13-1929</ows:Identifier>
             </Style>
             <Format>image/png</Format>
             <TileMatrixSetLink>
@@ -149,11 +149,11 @@
                          resourceType="tile"/>
         </Layer>
         <Layer>
-            <ows:Title>nzms13-1919</ows:Title>
-            <ows:Abstract>nzms13-1919</ows:Abstract>
-            <ows:Identifier>mapspast-13_1919</ows:Identifier>
+            <ows:Title>mapspast-nzms13-1919</ows:Title>
+            <ows:Abstract>mapspast-nzms13-1919</ows:Abstract>
+            <ows:Identifier>mapspast-nzms13-1919</ows:Identifier>
             <Style isDefault="true">
-                <ows:Identifier>mapspast-13_1919</ows:Identifier>
+                <ows:Identifier>mapspast-nzms13-1919</ows:Identifier>
             </Style>
             <Format>image/png</Format>
             <TileMatrixSetLink>
@@ -164,11 +164,11 @@
                          resourceType="tile"/>
         </Layer>
         <Layer>
-            <ows:Title>nzms13-1909</ows:Title>
-            <ows:Abstract>nzms13-1909</ows:Abstract>
-            <ows:Identifier>mapspast-13_1909</ows:Identifier>
+            <ows:Title>mapspast-nzms13-1909</ows:Title>
+            <ows:Abstract>mapspast-nzms13-1909</ows:Abstract>
+            <ows:Identifier>mapspast-nzms13-1909</ows:Identifier>
             <Style isDefault="true">
-                <ows:Identifier>mapspast-13_1909</ows:Identifier>
+                <ows:Identifier>mapspast-nzms13-1909</ows:Identifier>
             </Style>
             <Format>image/png</Format>
             <TileMatrixSetLink>
