@@ -190,7 +190,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://s3.ap-southeast-2.amazonaws.com/au.mapspast.org.nz/3857/nzms13-1939/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         template="https://s3.ap-southeast-2.amazonaws.com/au.mapspast.org.nz/3857/nzms13-1889/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
         </Layer>
         <TileMatrixSet>
