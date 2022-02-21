@@ -179,11 +179,11 @@
                          resourceType="tile"/>
         </Layer>
         <Layer>
-            <ows:Title>nzms13-1899</ows:Title>
-            <ows:Abstract>nzms13-1899</ows:Abstract>
-            <ows:Identifier>mapspast-13_1899</ows:Identifier>
+            <ows:Title>mapspast-nzms13-1899</ows:Title>
+            <ows:Abstract>mapspast-nzms13-1899</ows:Abstract>
+            <ows:Identifier>mapspast-nzms13-1899</ows:Identifier>
             <Style isDefault="true">
-                <ows:Identifier>mapspast-13_1899</ows:Identifier>
+                <ows:Identifier>mapspast-nzms13-1899</ows:Identifier>
             </Style>
             <Format>image/png</Format>
             <TileMatrixSetLink>
