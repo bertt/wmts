@@ -14,6 +14,21 @@
     </ows:ServiceIdentification>
     <Contents>
         <Layer>
+            <ows:Title>mapspast-topo50-2019</ows:Title>
+            <ows:Abstract>mapspast-topo50-2019</ows:Abstract>
+            <ows:Identifier>mapspast-topo50-2019</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>mapspast-topo50-2019</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="http://au.mapspast.org.nz/topo50-2019/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
             <ows:Title>mapspast-topo50-2009</ows:Title>
             <ows:Abstract>mapspast-topo50-2009</ows:Abstract>
             <ows:Identifier>mapspast-topo50-2009</ows:Identifier>
@@ -25,7 +40,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="http://au.mapspast.org.nz/topo50-2009/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         template="http://au.mapspast.org.nz/topo50/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -55,7 +70,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="http://au.mapspast.org.nz/nzms260-1989/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         template="http://au.mapspast.org.nz/nzms-1989/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -70,7 +85,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="http://au.mapspast.org.nz/nzms1-1979/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         template="http://au.mapspast.org.nz/nzms-1979/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -85,7 +100,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="http://au.mapspast.org.nz/nzms1-1969/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         template="http://au.mapspast.org.nz/nzms-1969/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
         </Layer>
         <Layer>
@@ -100,7 +115,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="http://au.mapspast.org.nz/nzms1-1959/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         template="http://au.mapspast.org.nz/nzms-1959/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
         </Layer>
         <Layer>
