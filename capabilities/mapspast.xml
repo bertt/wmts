@@ -70,7 +70,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="http://au.mapspast.org.nz/3857/nzms-1989/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         template="http://au.mapspast.org.nz/3857/nzms260-1989/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
         </Layer>
         <Layer>
