@@ -89,6 +89,22 @@
                          template="https://tiles.openrailwaymap.org/maxspeed/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
         </Layer>
+              <Layer>
+            <ows:Title>OpenRailwayMap Signals</ows:Title>
+            <ows:Abstract>OpenRailwayMap Signals</ows:Abstract>
+            <ows:Identifier>osm-openrailwaymap-signals</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>osm-openrailwaymap-signals</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://tiles.openrailwaymap.org/signals/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+        </Layer>
+
       <Layer>
             <ows:Title>OpenSeaMap</ows:Title>
             <ows:Abstract>OpenSeaMap</ows:Abstract>
