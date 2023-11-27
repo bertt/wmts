@@ -55,7 +55,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://core-renderer-tiles.maps.yandex.net/tiles?l=skl&amp;v=22.05.12-1-b220426173400&amp;x={TileCol}&amp;y={TileRow}&amp;z={TileMatrix}&amp;scale=1&amp;lang=ru_RU"
+                         template="https://core-renderer-tiles.maps.yandex.net/tiles?l=map&amp;v=22.05.12-1-b220426173400&amp;x={TileCol}&amp;y={TileRow}&amp;z={TileMatrix}&amp;scale=1&amp;lang=ru_RU"
                          resourceType="tile"/>
         </Layer>
         	        <Layer>
