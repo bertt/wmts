@@ -180,6 +180,21 @@
                          template="https://tile.opentopomap.org/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
         </Layer>
+        <Layer>
+            <ows:Title>OpenStreetMap.CycloOSM</ows:Title>
+            <ows:Abstract>OpenStreetMap.CycloOSM</ows:Abstract>
+            <ows:Identifier>osm-openstreetmap.cyclosm</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>OpenStreetMap.CycloOSM</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+          <ResourceURL format="image/png"
+                         template="https://c.tile-cyclosm.openstreetmap.fr/cyclosm/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+        </Layer>
         <TileMatrixSet>
             <ows:Identifier>google3857</ows:Identifier>
             <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.18.3:4326">
