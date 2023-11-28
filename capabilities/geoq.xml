@@ -44,18 +44,18 @@
                          resourceType="tile"/>
         </Layer>
         <Layer>
-            <ows:Title>geoq purpishblue</ows:Title>
+            <ows:Title>geoq purplishblue</ows:Title>
             <ows:Abstract></ows:Abstract>
-            <ows:Identifier>geoq-purpishblue</ows:Identifier>
+            <ows:Identifier>geoq-purplishblue</ows:Identifier>
             <Style isDefault="true">
-                <ows:Identifier>geoq-purpishblue</ows:Identifier>
+                <ows:Identifier>geoq-purplishblue</ows:Identifier>
             </Style>
             <Format>image/png</Format>
             <TileMatrixSetLink>
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://map.geoq.cn/ArcGIS/rest/services/ChinaOnlineStreetPurpishBlue/MapServer/tile/{TileMatrix}/{TileRow}/{TileCol}"
+                         template="https://map.geoq.cn/ArcGIS/rest/services/ChinaOnlineStreetPurplishBlue/MapServer/tile/{TileMatrix}/{TileRow}/{TileCol}"
                          resourceType="tile"/>
         </Layer>
         <Layer>
