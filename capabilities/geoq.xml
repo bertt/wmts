@@ -28,6 +28,52 @@
                          template="http://map.geoq.cn/ArcGIS/rest/services/ChinaOnlineCommunity/MapServer/tile/{TileMatrix}/{TileRow}/{TileCol}"
                          resourceType="tile"/>
         </Layer>
+        <Layer>
+            <ows:Title>geoq gray</ows:Title>
+            <ows:Abstract></ows:Abstract>
+            <ows:Identifier>geoq-gray</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>geoq-gray</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="http://map.geoq.cn/ArcGIS/rest/services/ChinaOnlineGray/MapServer/tile/{TileMatrix}/{TileRow}/{TileCol}"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>geoq purpishblue</ows:Title>
+            <ows:Abstract></ows:Abstract>
+            <ows:Identifier>geoq-purpishblue</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>geoq-purpishblue</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="http://map.geoq.cn/ArcGIS/rest/services/ChinaOnlinePurpishBlue/MapServer/tile/{TileMatrix}/{TileRow}/{TileCol}"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>geoq warm</ows:Title>
+            <ows:Abstract></ows:Abstract>
+            <ows:Identifier>geoq-warm</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>geoq-warm</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="http://map.geoq.cn/ArcGIS/rest/services/ChinaOnlineWarm/MapServer/tile/{TileMatrix}/{TileRow}/{TileCol}"
+                         resourceType="tile"/>
+        </Layer>
+      
         <TileMatrixSet>
             <ows:Identifier>google3857</ows:Identifier>
             <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.18.3:4326">
