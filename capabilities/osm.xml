@@ -181,11 +181,11 @@
                          resourceType="tile"/>
         </Layer>
         <Layer>
-            <ows:Title>OpenStreetMap.CycloOSM</ows:Title>
-            <ows:Abstract>OpenStreetMap.CycloOSM</ows:Abstract>
+            <ows:Title>OpenStreetMap.CyclOSM</ows:Title>
+            <ows:Abstract>OpenStreetMap.CyclOSM</ows:Abstract>
             <ows:Identifier>osm-openstreetmap.cyclosm</ows:Identifier>
             <Style isDefault="true">
-                <ows:Identifier>OpenStreetMap.CycloOSM</ows:Identifier>
+                <ows:Identifier>OpenStreetMap.CyclOSM</ows:Identifier>
             </Style>
             <Format>image/png</Format>
             <TileMatrixSetLink>
