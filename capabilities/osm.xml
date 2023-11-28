@@ -195,6 +195,21 @@
                          template="https://c.tile-cyclosm.openstreetmap.fr/cyclosm/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
         </Layer>
+        <Layer>
+            <ows:Title>OpenRiverBoatMap</ows:Title>
+            <ows:Abstract>OpenRiverBoatMap</ows:Abstract>
+            <ows:Identifier>osm-openriverboatmap</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>OpenRiverBoatMap</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+          <ResourceURL format="image/png"
+                         template="https://a.tile.openstreetmap.fr/openriverboatmap/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         resourceType="tile"/>
+        </Layer>
         <TileMatrixSet>
             <ows:Identifier>google3857</ows:Identifier>
             <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.18.3:4326">
