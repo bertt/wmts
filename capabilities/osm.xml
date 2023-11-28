@@ -183,7 +183,7 @@
         <Layer>
             <ows:Title>OpenStreetMap.CyclOSM</ows:Title>
             <ows:Abstract>OpenStreetMap.CyclOSM</ows:Abstract>
-            <ows:Identifier>osm-openstreetmap.cyclosm</ows:Identifier>
+            <ows:Identifier>osm-cyclosm</ows:Identifier>
             <Style isDefault="true">
                 <ows:Identifier>OpenStreetMap.CyclOSM</ows:Identifier>
             </Style>
