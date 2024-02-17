@@ -25,7 +25,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://raster-eu.cycle.travel/topoclassical_eu@2x/{TileMatrix}/{TileCol}/{TileRow}.png"
+                         template="https://raster-eu.cycle.travel/topoclassical_eu/{TileMatrix}/{TileCol}/{TileRow}.png"
                          resourceType="tile"/>
         </Layer>
         <TileMatrixSet>
