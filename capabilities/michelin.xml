@@ -25,7 +25,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://map7.viamichelin.com/map/mapdirect?map=michelin&amp;z={TileMatrix}&amp;x={TileCol}&amp;y={TileRow}&amp;format=png&amp;version=202505301130&amp;layer=background&amp;cs=1"
+                         template="https://map1.viamichelin.com/map/mapdirect?map=michelin&amp;z={TileMatrix}&amp;x={TileCol}&amp;y={TileRow}&amp;format=png&amp;version=202301111200&amp;layer=background&amp;protocol=https"
                          resourceType="tile"/>
         </Layer>
         <Layer>
