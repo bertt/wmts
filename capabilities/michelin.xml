@@ -40,7 +40,22 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://map2.viamichelin.com/map/mapdirect?map=light&amp;z={TileMatrix}&amp;x={TileCol}&amp;y={TileRow}&amp;format=png&amp;version=202505301130&amp;layer=background"
+                         template="https://map1.viamichelin.com/map/mapdirect?map=light&amp;z={TileMatrix}&amp;x={TileCol}&amp;y={TileRow}&amp;format=png&amp;version=202301111200&amp;layer=background&amp;protocol=https"
+                         resourceType="tile"/>
+        </Layer>
+        <Layer>
+            <ows:Title>Michelin - minimal</ows:Title>
+            <ows:Abstract></ows:Abstract>
+            <ows:Identifier>michelin-minimal</ows:Identifier>
+            <Style isDefault="true">
+                <ows:Identifier>micheling-minimal</ows:Identifier>
+            </Style>
+            <Format>image/png</Format>
+            <TileMatrixSetLink>
+                <TileMatrixSet>google3857</TileMatrixSet>
+            </TileMatrixSetLink>
+            <ResourceURL format="image/png"
+                         template="https://map1.viamichelin.com/map/mapdirect?map=hybrid&amp;z={TileMatrix}&amp;x={TileCol}&amp;y={TileRow}&amp;format=png&amp;version=201503191157&amp;layer=network&amp;protocol=https"
                          resourceType="tile"/>
         </Layer>
         <TileMatrixSet>
