@@ -23,7 +23,7 @@ strava2017.xml is deprecated and will be removed later on.
 
 ### Michelin
 
-Michelin layers are available from level z= 5
+Michelin layers are available on level z >= 5 and z <= 19
 
 ## Instructions
 
@@ -46,6 +46,7 @@ Browser panel -> WMS -> New Connection
 Select layer
 
 <img src="add-layer.png">
+
 
 
 
