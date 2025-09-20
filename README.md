@@ -6,7 +6,10 @@ Collection of WMTS services.
 
 Bing, Carto, Esri, Gaode, Geoq, Google, GSI, IsHowChina, Kosmosnimki, Mango, MapBox, Mapy.cz, Michelin, Naver, Nokia, OpenStreetMap, Stamen, Strava, ThunderForest, Tianditu, TomTom, Waze, Yandex
 
-Note about Strava: There are several files for Strava heatmaps supporting the colors:
+
+### Strava 
+
+There are several files for Strava heatmaps supporting the colors:
 
 Gold layers (default): https://bertt.github.io/wmts/capabilities/strava.xml
 
@@ -17,6 +20,10 @@ Gray layers: https://bertt.github.io/wmts/capabilities/strava-gray.xml
 Bluered layers: https://bertt.github.io/wmts/capabilities/strava-bluered.xml
 
 strava2017.xml is deprecated and will be removed later on.
+
+### Michelin
+
+Michelin layers are available from level z= 5
 
 ## Instructions
 
@@ -39,6 +46,7 @@ Browser panel -> WMS -> New Connection
 Select layer
 
 <img src="add-layer.png">
+
 
 
 
